@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "location-list-builder"
+version = "0.1.0"
+description = "Builds Google Ads radius targets from a project info JSON."
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31.0",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0.0",
+    # LLM providers — install the one you need (see LLM_PROVIDER in .env)
+    "groq>=0.11.0",                        # default provider
+    # google-generativeai>=0.7.0           # uncomment if using Gemini
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-mock>=3.12",
+]
+gemini = [
+    "google-generativeai>=0.7.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

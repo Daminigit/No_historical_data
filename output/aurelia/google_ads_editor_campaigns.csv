@@ -1,0 +1,265 @@
+Campaign,Ad Group,Location,Excluded Location,Keyword,Criterion Type,Location Setting,Max CPC,Notes
+Aurelia Heights - Campaign A (Local Radius),Locations,(2km:12.9698:77.7500),,,,Presence,,Campaign A Radius Target
+Aurelia Heights - Campaign A (Local Radius),Locations,(2km:12.9569:77.7011),,,,Presence,,Campaign A Radius Target
+Aurelia Heights - Campaign A (Local Radius),Locations,(3km:12.9858:77.7356),,,,Presence,,Campaign A Radius Target
+Aurelia Heights - Campaign A (Local Radius),Locations,(2km:12.9896:77.7127),,,,Presence,,Campaign A Radius Target
+Aurelia Heights - Campaign A (Local Radius),Locations,(3km:12.9423:77.6936),,,,Presence,,Campaign A Radius Target
+Aurelia Heights - Campaign A (Local Radius),Generic Units,,,2 BHK flats,Phrase,Presence,Default,Campaign A Generic Keyword
+Aurelia Heights - Campaign A (Local Radius),Generic Units,,,2 BHK apartments,Phrase,Presence,Default,Campaign A Generic Keyword
+Aurelia Heights - Campaign A (Local Radius),Generic Units,,,2 BHK flats for sale,Phrase,Presence,Default,Campaign A Generic Keyword
+Aurelia Heights - Campaign A (Local Radius),Generic Units,,,2 BHK ready to move flats,Phrase,Presence,Default,Campaign A Generic Keyword
+Aurelia Heights - Campaign A (Local Radius),Generic Units,,,buy 2 BHK flat,Phrase,Presence,Default,Campaign A Generic Keyword
+Aurelia Heights - Campaign A (Local Radius),Generic Units,,,3 BHK flats,Phrase,Presence,Default,Campaign A Generic Keyword
+Aurelia Heights - Campaign A (Local Radius),Generic Units,,,3 BHK apartments,Phrase,Presence,Default,Campaign A Generic Keyword
+Aurelia Heights - Campaign A (Local Radius),Generic Units,,,3 BHK flats for sale,Phrase,Presence,Default,Campaign A Generic Keyword
+Aurelia Heights - Campaign A (Local Radius),Generic Units,,,3 BHK ready to move flats,Phrase,Presence,Default,Campaign A Generic Keyword
+Aurelia Heights - Campaign A (Local Radius),Generic Units,,,buy 3 BHK flat,Phrase,Presence,Default,Campaign A Generic Keyword
+Aurelia Heights - Campaign A (Local Radius),Generic Units,,,new apartments,Phrase,Presence,Default,Campaign A Generic Keyword
+Aurelia Heights - Campaign A (Local Radius),Generic Units,,,ready to move flats,Phrase,Presence,Default,Campaign A Generic Keyword
+Aurelia Heights - Campaign A (Local Radius),Generic Units,,,flats for sale,Phrase,Presence,Default,Campaign A Generic Keyword
+Aurelia Heights - Campaign A (Local Radius),Generic Units,,,apartments for sale,Phrase,Presence,Default,Campaign A Generic Keyword
+Aurelia Heights - Campaign A (Local Radius),Generic Units,,,luxury apartments for sale,Phrase,Presence,Default,Campaign A Generic Keyword
+Aurelia Heights - Campaign A (Local Radius),Generic Units,,,gated community flats,Phrase,Presence,Default,Campaign A Generic Keyword
+Aurelia Heights - Campaign A (Local Radius),Generic Units,,,new residential projects,Phrase,Presence,Default,Campaign A Generic Keyword
+Aurelia Heights - Campaign A (Local Radius),Generic Units,,,premium apartments,Phrase,Presence,Default,Campaign A Generic Keyword
+Aurelia Heights - Campaign A (Local Radius),,,,rent,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,for rent,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,rental,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,to rent,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,flat on rent,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,house for rent,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,PG,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,paying guest,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,hostel,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,room for rent,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,single room,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,lease,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,resale,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,second hand,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,used flat,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,distress sale,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,broker,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,brokerage,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,agent commission,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,free flat,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,government quarters,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,commercial office,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,office space,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,coworking,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,warehouse,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,industrial plot,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,jobs,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,job vacancy,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,careers,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,recruitment,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,hiring,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,walk in interview,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,salary,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,interview questions,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,glassdoor,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,internship,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,wiki,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,wikipedia,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,syllabus,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,pincode,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,pin code,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,bus route,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,bus stop,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,metro station timing,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,complaints,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign A (Local Radius),,,,consumer court,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Locations,,(2km:12.9698:77.7500),,,Presence or interest,,Campaign B Excluded (from Campaign A)
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Locations,,(2km:12.9569:77.7011),,,Presence or interest,,Campaign B Excluded (from Campaign A)
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Locations,,(3km:12.9858:77.7356),,,Presence or interest,,Campaign B Excluded (from Campaign A)
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Locations,,(2km:12.9896:77.7127),,,Presence or interest,,Campaign B Excluded (from Campaign A)
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Locations,,(3km:12.9423:77.6936),,,Presence or interest,,Campaign B Excluded (from Campaign A)
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats for sale in Whitefield,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments in Whitefield,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,3 BHK in Whitefield,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,buy house in Whitefield,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats for sale in Marathahalli,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments in Marathahalli,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,3 BHK in Marathahalli,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,residential plots Marathahalli,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats near ITPL,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments near ITPL Whitefield,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,2 BHK near ITPL,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,houses for rent near ITPL,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats for sale in Hoodi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments in Hoodi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,2 BHK in Hoodi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,new projects in Hoodi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats near Prestige Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments near Whitefield IT corridor,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,2 BHK near Prestige Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,homes near Whitefield office parks,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats near Kalyani Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments near Whitefield,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,2 BHK near Kalyani Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,affordable flats Whitefield,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats near Electronic City,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments in Electronic City,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,3 BHK near Electronic City,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,rental homes near Electronic City,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats near Electronic City Phase 2,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments near ECI Phase 2,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,2 BHK near Electronic City,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,luxury apartments Electronic City,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats near Nagarjuna Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,3 BHK near Nagarjuna Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,rental apartments Whitefield,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats near Sahara One,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,3 BHK near Sahara One,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,premium apartments Whitefield,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats in Whitefield,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,2 BHK in Whitefield,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats near Whitefield,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,Whitefield apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,new projects in Whitefield,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,buy flat in Whitefield,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats in Hoodi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,3 BHK in Hoodi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats near Hoodi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments near Hoodi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,Hoodi apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,buy flat in Hoodi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats in ITPL,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments in ITPL,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,2 BHK in ITPL,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,3 BHK in ITPL,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments near ITPL,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,ITPL apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,new projects in ITPL,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,buy flat in ITPL,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats in Marathahalli,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,2 BHK in Marathahalli,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats near Marathahalli,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments near Marathahalli,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,Marathahalli apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,new projects in Marathahalli,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,buy flat in Marathahalli,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats in Kadugodi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments in Kadugodi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,2 BHK in Kadugodi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,3 BHK in Kadugodi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats near Kadugodi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments near Kadugodi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,Kadugodi apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,new projects in Kadugodi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,buy flat in Kadugodi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats in Hope Farm,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments in Hope Farm,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,2 BHK in Hope Farm,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,3 BHK in Hope Farm,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats near Hope Farm,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments near Hope Farm,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,Hope Farm apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,new projects in Hope Farm,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,buy flat in Hope Farm,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats in Prestige Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments in Prestige Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,2 BHK in Prestige Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,3 BHK in Prestige Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments near Prestige Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,Prestige Tech Park apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,new projects in Prestige Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,buy flat in Prestige Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats in Kalyani Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments in Kalyani Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,2 BHK in Kalyani Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,3 BHK in Kalyani Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments near Kalyani Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,Kalyani Tech Park apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,new projects in Kalyani Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,buy flat in Kalyani Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats in Electronic City Phase 1,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments in Electronic City Phase 1,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,2 BHK in Electronic City Phase 1,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,3 BHK in Electronic City Phase 1,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats near Electronic City Phase 1,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments near Electronic City Phase 1,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,Electronic City Phase 1 apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,new projects in Electronic City Phase 1,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,buy flat in Electronic City Phase 1,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats in Electronic City Phase 2,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments in Electronic City Phase 2,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,2 BHK in Electronic City Phase 2,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,3 BHK in Electronic City Phase 2,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments near Electronic City Phase 2,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,Electronic City Phase 2 apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,new projects in Electronic City Phase 2,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,buy flat in Electronic City Phase 2,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats in Nagarjuna Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments in Nagarjuna Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,2 BHK in Nagarjuna Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,3 BHK in Nagarjuna Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments near Nagarjuna Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,Nagarjuna Tech Park apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,new projects in Nagarjuna Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,buy flat in Nagarjuna Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,flats in Sahara One,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments in Sahara One,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,2 BHK in Sahara One,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,3 BHK in Sahara One,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,apartments near Sahara One,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,Sahara One apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,new projects in Sahara One,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),Geo Specific,,,buy flat in Sahara One,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),City Broad (Cautious),,,flats in Bangalore,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),City Broad (Cautious),,,apartments in Bangalore,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),City Broad (Cautious),,,new residential projects in Bangalore,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),City Broad (Cautious),,,luxury apartments in Bangalore,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),City Broad (Cautious),,,gated community flats in Bangalore,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),City Broad (Cautious),,,buy apartment in Bangalore,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),City Broad (Cautious),,,flats in Bengaluru,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),City Broad (Cautious),,,apartments in Bengaluru,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),City Broad (Cautious),,,new residential projects in Bengaluru,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),City Broad (Cautious),,,luxury apartments in Bengaluru,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),City Broad (Cautious),,,gated community flats in Bengaluru,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),City Broad (Cautious),,,buy apartment in Bengaluru,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,rent,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,for rent,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,rental,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,to rent,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,flat on rent,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,house for rent,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,PG,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,paying guest,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,hostel,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,room for rent,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,single room,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,lease,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,resale,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,second hand,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,used flat,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,distress sale,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,broker,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,brokerage,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,agent commission,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,free flat,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,government quarters,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,commercial office,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,office space,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,coworking,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,warehouse,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,industrial plot,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,jobs,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,job vacancy,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,careers,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,recruitment,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,hiring,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,walk in interview,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,salary,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,interview questions,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,glassdoor,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,internship,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,wiki,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,wikipedia,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,syllabus,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,pincode,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,pin code,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,bus route,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,bus stop,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,metro station timing,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,complaints,Negative Phrase,,,Shared Negative
+Aurelia Heights - Campaign B (Rest of Bengaluru / India),,,,consumer court,Negative Phrase,,,Shared Negative

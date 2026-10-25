@@ -1,0 +1,210 @@
+============================================================
+GOOGLE ADS CAMPAIGN B: REST OF CITY / INDIA
+============================================================
+Campaign Name: Kunjban Society - Campaign B (Rest of Nashik / India)
+Location Option: Presence or interest ('People in, regularly in, or who have shown interest in your targeted locations')
+
+--- INCLUDED LOCATIONS ---
+Nashik, India (or India for national buyers/relocators)
+
+--- EXCLUDED LOCATIONS (Prevents competition with Campaign A) ---
+(2km:20.0191:73.8110)
+(2km:20.0095:73.7919)
+(2km:19.9723:73.7817)
+(3km:19.9880:73.7834)
+(3km:19.9004:73.8380)
+
+--- TIER 1 KEYWORDS: SPECIFIC LOCALITIES & LANDMARKS (Higher Budget / Higher Bid) ---
+# Must include a place name so you don't pay for people searching in their own city.
+flats for sale in Hirawadi
+apartments in Hirawadi
+3 BHK in Hirawadi
+2 BHK in Hirawadi
+flats for sale in Panchavati Nashik
+apartments in Panchavati
+3 BHK in Panchavati
+2 BHK in Panchavati
+flats for sale in Indira Nagar Nashik
+apartments in Indira Nagar
+3 BHK in Indira Nagar
+2 BHK in Indira Nagar
+flats near Nashik Business Park
+apartments near Nashik Business Park
+2 BHK near Nashik Business Park
+flats near Nashik Cyber Park
+apartments near Nashik Cyber Park
+2 BHK near Nashik Cyber Park
+flats near Nashik Tech Park
+apartments near Nashik Tech Park
+2 BHK near Nashik Tech Park
+flats near Nashik IT Park
+apartments near NIT Nashik
+2 BHK near Nashik IT Park
+3 BHK near NIT Nashik
+houses near Nashik SEZ
+apartments near Nashik SEZ
+2 BHK near Nashik SEZ
+3 BHK near Nashik SEZ
+flats for sale in Kothrud Nashik
+apartments in Kothrud
+3 BHK in Kothrud
+2 BHK in Kothrud
+flats in Kunjban
+apartments in Kunjban
+2 BHK in Kunjban
+3 BHK in Kunjban
+flats near Kunjban
+apartments near Kunjban
+Kunjban apartments
+new projects in Kunjban
+buy flat in Kunjban
+flats in Society
+apartments in Society
+2 BHK in Society
+3 BHK in Society
+flats near Society
+apartments near Society
+Society apartments
+new projects in Society
+buy flat in Society
+flats in Hirawadi
+flats near Hirawadi
+apartments near Hirawadi
+Hirawadi apartments
+new projects in Hirawadi
+buy flat in Hirawadi
+flats in Panchavati
+flats near Panchavati
+apartments near Panchavati
+Panchavati apartments
+new projects in Panchavati
+buy flat in Panchavati
+flats in Maharashtra
+apartments in Maharashtra
+2 BHK in Maharashtra
+3 BHK in Maharashtra
+flats near Maharashtra
+apartments near Maharashtra
+Maharashtra apartments
+new projects in Maharashtra
+buy flat in Maharashtra
+flats in 422003
+apartments in 422003
+2 BHK in 422003
+3 BHK in 422003
+flats near 422003
+apartments near 422003
+422003 apartments
+new projects in 422003
+buy flat in 422003
+flats in Indira Nagar
+flats near Indira Nagar
+apartments near Indira Nagar
+Indira Nagar apartments
+new projects in Indira Nagar
+buy flat in Indira Nagar
+flats in Nashik Business Park
+apartments in Nashik Business Park
+2 BHK in Nashik Business Park
+3 BHK in Nashik Business Park
+Nashik Business Park apartments
+new projects in Nashik Business Park
+buy flat in Nashik Business Park
+flats in Nashik Cyber Park
+apartments in Nashik Cyber Park
+2 BHK in Nashik Cyber Park
+3 BHK in Nashik Cyber Park
+Nashik Cyber Park apartments
+new projects in Nashik Cyber Park
+buy flat in Nashik Cyber Park
+flats in Nashik Tech Park
+apartments in Nashik Tech Park
+2 BHK in Nashik Tech Park
+3 BHK in Nashik Tech Park
+Nashik Tech Park apartments
+new projects in Nashik Tech Park
+buy flat in Nashik Tech Park
+flats in Nashik IT Park
+apartments in Nashik IT Park
+2 BHK in Nashik IT Park
+3 BHK in Nashik IT Park
+apartments near Nashik IT Park
+Nashik IT Park apartments
+new projects in Nashik IT Park
+buy flat in Nashik IT Park
+flats in Nashik SEZ
+apartments in Nashik SEZ
+2 BHK in Nashik SEZ
+3 BHK in Nashik SEZ
+flats near Nashik SEZ
+Nashik SEZ apartments
+new projects in Nashik SEZ
+buy flat in Nashik SEZ
+flats in Kothrud
+flats near Kothrud
+apartments near Kothrud
+Kothrud apartments
+new projects in Kothrud
+buy flat in Kothrud
+
+--- TIER 2 KEYWORDS: BROAD CITY-WIDE TERMS (Lower Bids / Cautious Budget) ---
+# Caution: Broad terms ('flats in Bangalore') are expensive and less targeted.
+# Recommendation: Bid 40-50% lower than Tier 1 terms.
+flats in Nashik
+apartments in Nashik
+new residential projects in Nashik
+luxury apartments in Nashik
+gated community flats in Nashik
+buy apartment in Nashik
+
+--- CAUTIONS ---
+- Caution 1: 'Flats in Nashik' is broad and expensive. Give more budget to specific terms ('Kunjban', 'Society', 'Hirawadi') and bid lower (e.g. -40% to -50% CPC) on the city-wide ones.
+- Caution 2: Add the exact same shared negative keyword list to both campaigns (rent, PG, resale, jobs and so on) so ad spend is never wasted on non-buyers.
+
+--- NEGATIVE KEYWORDS (46 terms) ---
+rent
+for rent
+rental
+to rent
+flat on rent
+house for rent
+PG
+paying guest
+hostel
+room for rent
+single room
+lease
+resale
+second hand
+used flat
+distress sale
+broker
+brokerage
+agent commission
+free flat
+government quarters
+commercial office
+office space
+coworking
+warehouse
+industrial plot
+jobs
+job vacancy
+careers
+recruitment
+hiring
+walk in interview
+salary
+interview questions
+glassdoor
+internship
+wiki
+wikipedia
+syllabus
+pincode
+pin code
+bus route
+bus stop
+metro station timing
+complaints
+consumer court

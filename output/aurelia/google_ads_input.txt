@@ -1,0 +1,51 @@
+# ============================================================
+# GOOGLE ADS INPUT: LOCATIONS & SEARCH KEYWORDS
+# Project: Aurelia Heights (Bengaluru)
+# ============================================================
+
+# --- LOCATIONS (Radius Targets for Google Ads) ---
+(2km:12.9698:77.7500)
+(2km:12.9569:77.7011)
+(3km:12.9858:77.7356)
+(2km:12.9896:77.7127)
+(3km:12.9423:77.6936)
+
+# --- SEARCH KEYWORDS ---
+2 BHK flats
+2 BHK apartments
+2 BHK flats for sale
+2 BHK ready to move flats
+buy 2 BHK flat
+3 BHK flats
+3 BHK apartments
+3 BHK flats for sale
+3 BHK ready to move flats
+buy 3 BHK flat
+new apartments
+ready to move flats
+flats for sale
+apartments for sale
+luxury apartments for sale
+gated community flats
+new residential projects
+premium apartments
+flats for sale in Whitefield
+apartments in Whitefield
+3 BHK in Whitefield
+buy house in Whitefield
+flats for sale in Marathahalli
+apartments in Marathahalli
+3 BHK in Marathahalli
+residential plots Marathahalli
+flats near ITPL
+apartments near ITPL Whitefield
+2 BHK near ITPL
+houses for rent near ITPL
+flats for sale in Hoodi
+apartments in Hoodi
+2 BHK in Hoodi
+new projects in Hoodi
+flats near Prestige Tech Park
+apartments near Whitefield IT corridor
+2 BHK near Prestige Tech Park
+homes near Whitefield office parks

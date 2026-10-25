@@ -1,0 +1,49 @@
+# ============================================================
+# GOOGLE ADS INPUT: LOCATIONS & SEARCH KEYWORDS
+# Project: Kunjban Society (Nashik)
+# ============================================================
+
+# --- LOCATIONS (Radius Targets for Google Ads) ---
+(2km:20.0191:73.8110)
+(2km:20.0095:73.7919)
+(2km:19.9723:73.7817)
+(3km:19.9880:73.7834)
+(3km:19.9004:73.8380)
+
+# --- SEARCH KEYWORDS ---
+2 BHK flats
+2 BHK apartments
+2 BHK flats for sale
+2 BHK ready to move flats
+buy 2 BHK flat
+3 BHK flats
+3 BHK apartments
+3 BHK flats for sale
+3 BHK ready to move flats
+buy 3 BHK flat
+new apartments
+ready to move flats
+flats for sale
+apartments for sale
+luxury apartments for sale
+gated community flats
+new residential projects
+premium apartments
+flats for sale in Hirawadi
+apartments in Hirawadi
+3 BHK in Hirawadi
+2 BHK in Hirawadi
+flats for sale in Panchavati Nashik
+apartments in Panchavati
+3 BHK in Panchavati
+2 BHK in Panchavati
+flats for sale in Indira Nagar Nashik
+apartments in Indira Nagar
+3 BHK in Indira Nagar
+2 BHK in Indira Nagar
+flats near Nashik Business Park
+apartments near Nashik Business Park
+2 BHK near Nashik Business Park
+flats near Nashik Tech Park
+apartments near Nashik Tech Park
+2 BHK near Nashik Tech Park

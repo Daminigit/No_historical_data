@@ -1,0 +1,23 @@
+{
+  "project": {
+    "name": "Skyline Residences"
+  },
+  "location": {
+    "lat": 18.5204,
+    "lng": 73.8567,
+    "address": "Baner Road",
+    "city": "Pune"
+  },
+  "units": [
+    {
+      "type": "2BHK",
+      "status": "available",
+      "price_min_inr": 8500000
+    },
+    {
+      "type": "3BHK",
+      "status": "available",
+      "price_min_inr": 12000000
+    }
+  ]
+}

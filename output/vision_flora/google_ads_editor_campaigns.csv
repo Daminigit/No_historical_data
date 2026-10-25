@@ -1,0 +1,339 @@
+Campaign,Ad Group,Location,Excluded Location,Keyword,Criterion Type,Location Setting,Max CPC,Notes
+Vision Flora - Campaign A (Local Radius),Locations,(3km:18.6321:73.8468),,,,Presence,,Campaign A Radius Target
+Vision Flora - Campaign A (Local Radius),Locations,(3km:18.6011:73.7641),,,,Presence,,Campaign A Radius Target
+Vision Flora - Campaign A (Local Radius),Locations,(2km:18.5987:73.7978),,,,Presence,,Campaign A Radius Target
+Vision Flora - Campaign A (Local Radius),Locations,(3km:18.5947:73.7095),,,,Presence,,Campaign A Radius Target
+Vision Flora - Campaign A (Local Radius),Locations,(2km:18.5862:73.7339),,,,Presence,,Campaign A Radius Target
+Vision Flora - Campaign A (Local Radius),Locations,(3km:18.7049:73.7888),,,,Presence,,Campaign A Radius Target
+Vision Flora - Campaign A (Local Radius),Locations,(2km:18.5808:73.9787),,,,Presence,,Campaign A Radius Target
+Vision Flora - Campaign A (Local Radius),Locations,(3km:18.5158:73.9272),,,,Presence,,Campaign A Radius Target
+Vision Flora - Campaign A (Local Radius),Generic Units,,,2 BHK flats,Phrase,Presence,Default,Campaign A Generic Keyword
+Vision Flora - Campaign A (Local Radius),Generic Units,,,2 BHK apartments,Phrase,Presence,Default,Campaign A Generic Keyword
+Vision Flora - Campaign A (Local Radius),Generic Units,,,2 BHK flats for sale,Phrase,Presence,Default,Campaign A Generic Keyword
+Vision Flora - Campaign A (Local Radius),Generic Units,,,2 BHK ready to move flats,Phrase,Presence,Default,Campaign A Generic Keyword
+Vision Flora - Campaign A (Local Radius),Generic Units,,,buy 2 BHK flat,Phrase,Presence,Default,Campaign A Generic Keyword
+Vision Flora - Campaign A (Local Radius),Generic Units,,,3 BHK flats,Phrase,Presence,Default,Campaign A Generic Keyword
+Vision Flora - Campaign A (Local Radius),Generic Units,,,3 BHK apartments,Phrase,Presence,Default,Campaign A Generic Keyword
+Vision Flora - Campaign A (Local Radius),Generic Units,,,3 BHK flats for sale,Phrase,Presence,Default,Campaign A Generic Keyword
+Vision Flora - Campaign A (Local Radius),Generic Units,,,3 BHK ready to move flats,Phrase,Presence,Default,Campaign A Generic Keyword
+Vision Flora - Campaign A (Local Radius),Generic Units,,,buy 3 BHK flat,Phrase,Presence,Default,Campaign A Generic Keyword
+Vision Flora - Campaign A (Local Radius),Generic Units,,,new apartments,Phrase,Presence,Default,Campaign A Generic Keyword
+Vision Flora - Campaign A (Local Radius),Generic Units,,,ready to move flats,Phrase,Presence,Default,Campaign A Generic Keyword
+Vision Flora - Campaign A (Local Radius),Generic Units,,,flats for sale,Phrase,Presence,Default,Campaign A Generic Keyword
+Vision Flora - Campaign A (Local Radius),Generic Units,,,apartments for sale,Phrase,Presence,Default,Campaign A Generic Keyword
+Vision Flora - Campaign A (Local Radius),Generic Units,,,luxury apartments for sale,Phrase,Presence,Default,Campaign A Generic Keyword
+Vision Flora - Campaign A (Local Radius),Generic Units,,,gated community flats,Phrase,Presence,Default,Campaign A Generic Keyword
+Vision Flora - Campaign A (Local Radius),Generic Units,,,new residential projects,Phrase,Presence,Default,Campaign A Generic Keyword
+Vision Flora - Campaign A (Local Radius),Generic Units,,,premium apartments,Phrase,Presence,Default,Campaign A Generic Keyword
+Vision Flora - Campaign A (Local Radius),,,,rent,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,for rent,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,rental,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,to rent,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,flat on rent,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,house for rent,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,PG,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,paying guest,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,hostel,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,room for rent,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,single room,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,lease,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,resale,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,second hand,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,used flat,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,distress sale,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,broker,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,brokerage,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,agent commission,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,free flat,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,government quarters,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,commercial office,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,office space,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,coworking,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,warehouse,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,industrial plot,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,jobs,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,job vacancy,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,careers,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,recruitment,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,hiring,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,walk in interview,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,salary,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,interview questions,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,glassdoor,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,internship,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,wiki,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,wikipedia,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,syllabus,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,pincode,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,pin code,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,bus route,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,bus stop,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,metro station timing,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,complaints,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign A (Local Radius),,,,consumer court,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),Locations,,(3km:18.6321:73.8468),,,Presence or interest,,Campaign B Excluded (from Campaign A)
+Vision Flora - Campaign B (Rest of Pune / India),Locations,,(3km:18.6011:73.7641),,,Presence or interest,,Campaign B Excluded (from Campaign A)
+Vision Flora - Campaign B (Rest of Pune / India),Locations,,(2km:18.5987:73.7978),,,Presence or interest,,Campaign B Excluded (from Campaign A)
+Vision Flora - Campaign B (Rest of Pune / India),Locations,,(3km:18.5947:73.7095),,,Presence or interest,,Campaign B Excluded (from Campaign A)
+Vision Flora - Campaign B (Rest of Pune / India),Locations,,(2km:18.5862:73.7339),,,Presence or interest,,Campaign B Excluded (from Campaign A)
+Vision Flora - Campaign B (Rest of Pune / India),Locations,,(3km:18.7049:73.7888),,,Presence or interest,,Campaign B Excluded (from Campaign A)
+Vision Flora - Campaign B (Rest of Pune / India),Locations,,(2km:18.5808:73.9787),,,Presence or interest,,Campaign B Excluded (from Campaign A)
+Vision Flora - Campaign B (Rest of Pune / India),Locations,,(3km:18.5158:73.9272),,,Presence or interest,,Campaign B Excluded (from Campaign A)
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Bhosari MIDC,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Bhosari,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK near Bhosari MIDC,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK near Bhosari,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Wakad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Wakad IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK near Wakad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK near Wakad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats for sale in Pimple Saudagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Pimple Saudagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Pimple Saudagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Pimple Saudagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Hinjewadi IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Hinjewadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK near Hinjewadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK near Hinjewadi IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats for sale in Hinjewadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Hinjewadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Hinjewadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Hinjewadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Talawade IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Talawade,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK near Talawade,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,homes near Talawade IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats for sale in Wagholi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Wagholi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Wagholi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Wagholi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Magarpatta,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Magarpatta City,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK near Magarpatta,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK near Magarpatta,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Pimpri Industrial Area,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Pimpri MIDC,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK near Pimpri,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK near Chinchwad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats for sale in Pimpri,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Pimpri,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Pimpri,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Pimpri,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats for sale in Chinchwad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Chinchwad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Chinchwad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Chinchwad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats for sale in Bhosari,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Bhosari,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Bhosari,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Bhosari,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats for sale in Pimple Nilakh,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Pimple Nilakh,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Pimple Nilakh,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Pimple Nilakh,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Vision,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Vision,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Vision,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Vision,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Vision,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Vision,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Vision apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Vision,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Vision,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Flora,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Flora,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Flora,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Flora,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Flora,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Flora,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Flora apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Flora,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Flora,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Pimple,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Pimple,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Pimple,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Pimple,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Pimple,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Pimple,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Pimple apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Pimple,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Pimple,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Saudagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Saudagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Saudagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Saudagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Saudagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Saudagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Saudagar apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Saudagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Saudagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Pimpri-Chinchwad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Pimpri-Chinchwad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Pimpri-Chinchwad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Pimpri-Chinchwad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Pimpri-Chinchwad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Pimpri-Chinchwad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Pimpri-Chinchwad apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Pimpri-Chinchwad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Pimpri-Chinchwad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Maharashtra,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Maharashtra,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Maharashtra,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Maharashtra,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Maharashtra,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Maharashtra,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Maharashtra apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Maharashtra,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Maharashtra,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in 411027,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in 411027,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in 411027,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in 411027,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near 411027,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near 411027,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,411027 apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in 411027,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in 411027,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Bhosari MIDC,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Bhosari MIDC,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Bhosari MIDC,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Bhosari MIDC,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Bhosari MIDC,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Bhosari MIDC apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Bhosari MIDC,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Bhosari MIDC,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Wakad IT Hub,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Wakad IT Hub,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Wakad IT Hub,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Wakad IT Hub,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Wakad IT Hub,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Wakad IT Hub,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Wakad IT Hub apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Wakad IT Hub,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Wakad IT Hub,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Pimple Saudagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Pimple Saudagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Pimple Saudagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Pimple Saudagar apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Pimple Saudagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Pimple Saudagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Rajiv Gandhi Infotech Park Hinjewadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Rajiv Gandhi Infotech Park Hinjewadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Rajiv Gandhi Infotech Park Hinjewadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Rajiv Gandhi Infotech Park Hinjewadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Rajiv Gandhi Infotech Park Hinjewadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Rajiv Gandhi Infotech Park Hinjewadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Rajiv Gandhi Infotech Park Hinjewadi apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Rajiv Gandhi Infotech Park Hinjewadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Rajiv Gandhi Infotech Park Hinjewadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Hinjewadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Hinjewadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Hinjewadi apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Hinjewadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Hinjewadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Talawade IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Talawade IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Talawade IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Talawade IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Talawade IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Talawade IT Park apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Talawade IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Talawade IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Wagholi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Wagholi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Wagholi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Wagholi apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Wagholi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Wagholi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Magarpatta City,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Magarpatta City,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Magarpatta City,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Magarpatta City,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Magarpatta City,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Magarpatta City apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Magarpatta City,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Magarpatta City,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Pimpri-Chinchwad Industrial Area,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments in Pimpri-Chinchwad Industrial Area,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,2 BHK in Pimpri-Chinchwad Industrial Area,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,3 BHK in Pimpri-Chinchwad Industrial Area,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Pimpri-Chinchwad Industrial Area,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Pimpri-Chinchwad Industrial Area,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Pimpri-Chinchwad Industrial Area apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Pimpri-Chinchwad Industrial Area,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Pimpri-Chinchwad Industrial Area,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Pimpri,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Pimpri,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Pimpri,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Pimpri apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Pimpri,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Pimpri,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Chinchwad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Chinchwad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Chinchwad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Chinchwad apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Chinchwad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Chinchwad,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Bhosari,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Bhosari,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Bhosari apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Bhosari,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Bhosari,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats in Pimple Nilakh,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,flats near Pimple Nilakh,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,apartments near Pimple Nilakh,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,Pimple Nilakh apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,new projects in Pimple Nilakh,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),Geo Specific,,,buy flat in Pimple Nilakh,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Vision Flora - Campaign B (Rest of Pune / India),City Broad (Cautious),,,flats in Pune,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Vision Flora - Campaign B (Rest of Pune / India),City Broad (Cautious),,,apartments in Pune,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Vision Flora - Campaign B (Rest of Pune / India),City Broad (Cautious),,,new residential projects in Pune,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Vision Flora - Campaign B (Rest of Pune / India),City Broad (Cautious),,,luxury apartments in Pune,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Vision Flora - Campaign B (Rest of Pune / India),City Broad (Cautious),,,gated community flats in Pune,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Vision Flora - Campaign B (Rest of Pune / India),City Broad (Cautious),,,buy apartment in Pune,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Vision Flora - Campaign B (Rest of Pune / India),,,,rent,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,for rent,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,rental,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,to rent,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,flat on rent,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,house for rent,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,PG,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,paying guest,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,hostel,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,room for rent,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,single room,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,lease,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,resale,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,second hand,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,used flat,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,distress sale,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,broker,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,brokerage,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,agent commission,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,free flat,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,government quarters,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,commercial office,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,office space,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,coworking,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,warehouse,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,industrial plot,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,jobs,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,job vacancy,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,careers,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,recruitment,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,hiring,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,walk in interview,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,salary,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,interview questions,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,glassdoor,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,internship,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,wiki,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,wikipedia,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,syllabus,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,pincode,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,pin code,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,bus route,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,bus stop,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,metro station timing,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,complaints,Negative Phrase,,,Shared Negative
+Vision Flora - Campaign B (Rest of Pune / India),,,,consumer court,Negative Phrase,,,Shared Negative

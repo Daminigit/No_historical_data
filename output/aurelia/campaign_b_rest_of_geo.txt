@@ -1,0 +1,218 @@
+============================================================
+GOOGLE ADS CAMPAIGN B: REST OF CITY / INDIA
+============================================================
+Campaign Name: Aurelia Heights - Campaign B (Rest of Bengaluru / India)
+Location Option: Presence or interest ('People in, regularly in, or who have shown interest in your targeted locations')
+
+--- INCLUDED LOCATIONS ---
+Bengaluru, India (or India for national buyers/relocators)
+
+--- EXCLUDED LOCATIONS (Prevents competition with Campaign A) ---
+(2km:12.9698:77.7500)
+(2km:12.9569:77.7011)
+(3km:12.9858:77.7356)
+(2km:12.9896:77.7127)
+(3km:12.9423:77.6936)
+
+--- TIER 1 KEYWORDS: SPECIFIC LOCALITIES & LANDMARKS (Higher Budget / Higher Bid) ---
+# Must include a place name so you don't pay for people searching in their own city.
+flats for sale in Whitefield
+apartments in Whitefield
+3 BHK in Whitefield
+buy house in Whitefield
+flats for sale in Marathahalli
+apartments in Marathahalli
+3 BHK in Marathahalli
+residential plots Marathahalli
+flats near ITPL
+apartments near ITPL Whitefield
+2 BHK near ITPL
+houses for rent near ITPL
+flats for sale in Hoodi
+apartments in Hoodi
+2 BHK in Hoodi
+new projects in Hoodi
+flats near Prestige Tech Park
+apartments near Whitefield IT corridor
+2 BHK near Prestige Tech Park
+homes near Whitefield office parks
+flats near Kalyani Tech Park
+apartments near Whitefield
+2 BHK near Kalyani Tech Park
+affordable flats Whitefield
+flats near Electronic City
+apartments in Electronic City
+3 BHK near Electronic City
+rental homes near Electronic City
+flats near Electronic City Phase 2
+apartments near ECI Phase 2
+2 BHK near Electronic City
+luxury apartments Electronic City
+flats near Nagarjuna Tech Park
+3 BHK near Nagarjuna Tech Park
+rental apartments Whitefield
+flats near Sahara One
+3 BHK near Sahara One
+premium apartments Whitefield
+flats in Whitefield
+2 BHK in Whitefield
+flats near Whitefield
+Whitefield apartments
+new projects in Whitefield
+buy flat in Whitefield
+flats in Hoodi
+3 BHK in Hoodi
+flats near Hoodi
+apartments near Hoodi
+Hoodi apartments
+buy flat in Hoodi
+flats in ITPL
+apartments in ITPL
+2 BHK in ITPL
+3 BHK in ITPL
+apartments near ITPL
+ITPL apartments
+new projects in ITPL
+buy flat in ITPL
+flats in Marathahalli
+2 BHK in Marathahalli
+flats near Marathahalli
+apartments near Marathahalli
+Marathahalli apartments
+new projects in Marathahalli
+buy flat in Marathahalli
+flats in Kadugodi
+apartments in Kadugodi
+2 BHK in Kadugodi
+3 BHK in Kadugodi
+flats near Kadugodi
+apartments near Kadugodi
+Kadugodi apartments
+new projects in Kadugodi
+buy flat in Kadugodi
+flats in Hope Farm
+apartments in Hope Farm
+2 BHK in Hope Farm
+3 BHK in Hope Farm
+flats near Hope Farm
+apartments near Hope Farm
+Hope Farm apartments
+new projects in Hope Farm
+buy flat in Hope Farm
+flats in Prestige Tech Park
+apartments in Prestige Tech Park
+2 BHK in Prestige Tech Park
+3 BHK in Prestige Tech Park
+apartments near Prestige Tech Park
+Prestige Tech Park apartments
+new projects in Prestige Tech Park
+buy flat in Prestige Tech Park
+flats in Kalyani Tech Park
+apartments in Kalyani Tech Park
+2 BHK in Kalyani Tech Park
+3 BHK in Kalyani Tech Park
+apartments near Kalyani Tech Park
+Kalyani Tech Park apartments
+new projects in Kalyani Tech Park
+buy flat in Kalyani Tech Park
+flats in Electronic City Phase 1
+apartments in Electronic City Phase 1
+2 BHK in Electronic City Phase 1
+3 BHK in Electronic City Phase 1
+flats near Electronic City Phase 1
+apartments near Electronic City Phase 1
+Electronic City Phase 1 apartments
+new projects in Electronic City Phase 1
+buy flat in Electronic City Phase 1
+flats in Electronic City Phase 2
+apartments in Electronic City Phase 2
+2 BHK in Electronic City Phase 2
+3 BHK in Electronic City Phase 2
+apartments near Electronic City Phase 2
+Electronic City Phase 2 apartments
+new projects in Electronic City Phase 2
+buy flat in Electronic City Phase 2
+flats in Nagarjuna Tech Park
+apartments in Nagarjuna Tech Park
+2 BHK in Nagarjuna Tech Park
+3 BHK in Nagarjuna Tech Park
+apartments near Nagarjuna Tech Park
+Nagarjuna Tech Park apartments
+new projects in Nagarjuna Tech Park
+buy flat in Nagarjuna Tech Park
+flats in Sahara One
+apartments in Sahara One
+2 BHK in Sahara One
+3 BHK in Sahara One
+apartments near Sahara One
+Sahara One apartments
+new projects in Sahara One
+buy flat in Sahara One
+
+--- TIER 2 KEYWORDS: BROAD CITY-WIDE TERMS (Lower Bids / Cautious Budget) ---
+# Caution: Broad terms ('flats in Bangalore') are expensive and less targeted.
+# Recommendation: Bid 40-50% lower than Tier 1 terms.
+flats in Bangalore
+apartments in Bangalore
+new residential projects in Bangalore
+luxury apartments in Bangalore
+gated community flats in Bangalore
+buy apartment in Bangalore
+flats in Bengaluru
+apartments in Bengaluru
+new residential projects in Bengaluru
+luxury apartments in Bengaluru
+gated community flats in Bengaluru
+buy apartment in Bengaluru
+
+--- CAUTIONS ---
+- Caution 1: 'Flats in Bangalore' is broad and expensive. Someone searching that may want Electronic City or Hebbal, not Whitefield. Give more budget to specific terms ('flats in Whitefield', 'Hoodi apartments', '2 BHK near ITPL') and bid lower (e.g. -40% to -50% CPC) on the city-wide ones.
+- Caution 2: Add the exact same shared negative keyword list to both campaigns (rent, PG, resale, jobs and so on) so ad spend is never wasted on non-buyers.
+
+--- NEGATIVE KEYWORDS (46 terms) ---
+rent
+for rent
+rental
+to rent
+flat on rent
+house for rent
+PG
+paying guest
+hostel
+room for rent
+single room
+lease
+resale
+second hand
+used flat
+distress sale
+broker
+brokerage
+agent commission
+free flat
+government quarters
+commercial office
+office space
+coworking
+warehouse
+industrial plot
+jobs
+job vacancy
+careers
+recruitment
+hiring
+walk in interview
+salary
+interview questions
+glassdoor
+internship
+wiki
+wikipedia
+syllabus
+pincode
+pin code
+bus route
+bus stop
+metro station timing
+complaints
+consumer court

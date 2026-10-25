@@ -1,0 +1,289 @@
+============================================================
+GOOGLE ADS CAMPAIGN B: REST OF CITY / INDIA
+============================================================
+Campaign Name: Vision Flora - Campaign B (Rest of Pune / India)
+Location Option: Presence or interest ('People in, regularly in, or who have shown interest in your targeted locations')
+
+--- INCLUDED LOCATIONS ---
+Pune, India (or India for national buyers/relocators)
+
+--- EXCLUDED LOCATIONS (Prevents competition with Campaign A) ---
+(3km:18.6321:73.8468)
+(3km:18.6011:73.7641)
+(2km:18.5987:73.7978)
+(3km:18.5947:73.7095)
+(2km:18.5862:73.7339)
+(3km:18.7049:73.7888)
+(2km:18.5808:73.9787)
+(3km:18.5158:73.9272)
+
+--- TIER 1 KEYWORDS: SPECIFIC LOCALITIES & LANDMARKS (Higher Budget / Higher Bid) ---
+# Must include a place name so you don't pay for people searching in their own city.
+flats near Bhosari MIDC
+apartments near Bhosari
+2 BHK near Bhosari MIDC
+3 BHK near Bhosari
+flats near Wakad
+apartments near Wakad IT Park
+2 BHK near Wakad
+3 BHK near Wakad
+flats for sale in Pimple Saudagar
+apartments in Pimple Saudagar
+2 BHK in Pimple Saudagar
+3 BHK in Pimple Saudagar
+flats near Hinjewadi IT Park
+apartments near Hinjewadi
+2 BHK near Hinjewadi
+3 BHK near Hinjewadi IT Park
+flats for sale in Hinjewadi
+apartments in Hinjewadi
+2 BHK in Hinjewadi
+3 BHK in Hinjewadi
+flats near Talawade IT Park
+apartments near Talawade
+2 BHK near Talawade
+homes near Talawade IT Park
+flats for sale in Wagholi
+apartments in Wagholi
+2 BHK in Wagholi
+3 BHK in Wagholi
+flats near Magarpatta
+apartments near Magarpatta City
+2 BHK near Magarpatta
+3 BHK near Magarpatta
+flats near Pimpri Industrial Area
+apartments near Pimpri MIDC
+2 BHK near Pimpri
+3 BHK near Chinchwad
+flats for sale in Pimpri
+apartments in Pimpri
+2 BHK in Pimpri
+3 BHK in Pimpri
+flats for sale in Chinchwad
+apartments in Chinchwad
+2 BHK in Chinchwad
+3 BHK in Chinchwad
+flats for sale in Bhosari
+apartments in Bhosari
+2 BHK in Bhosari
+3 BHK in Bhosari
+flats for sale in Pimple Nilakh
+apartments in Pimple Nilakh
+2 BHK in Pimple Nilakh
+3 BHK in Pimple Nilakh
+flats in Vision
+apartments in Vision
+2 BHK in Vision
+3 BHK in Vision
+flats near Vision
+apartments near Vision
+Vision apartments
+new projects in Vision
+buy flat in Vision
+flats in Flora
+apartments in Flora
+2 BHK in Flora
+3 BHK in Flora
+flats near Flora
+apartments near Flora
+Flora apartments
+new projects in Flora
+buy flat in Flora
+flats in Pimple
+apartments in Pimple
+2 BHK in Pimple
+3 BHK in Pimple
+flats near Pimple
+apartments near Pimple
+Pimple apartments
+new projects in Pimple
+buy flat in Pimple
+flats in Saudagar
+apartments in Saudagar
+2 BHK in Saudagar
+3 BHK in Saudagar
+flats near Saudagar
+apartments near Saudagar
+Saudagar apartments
+new projects in Saudagar
+buy flat in Saudagar
+flats in Pimpri-Chinchwad
+apartments in Pimpri-Chinchwad
+2 BHK in Pimpri-Chinchwad
+3 BHK in Pimpri-Chinchwad
+flats near Pimpri-Chinchwad
+apartments near Pimpri-Chinchwad
+Pimpri-Chinchwad apartments
+new projects in Pimpri-Chinchwad
+buy flat in Pimpri-Chinchwad
+flats in Maharashtra
+apartments in Maharashtra
+2 BHK in Maharashtra
+3 BHK in Maharashtra
+flats near Maharashtra
+apartments near Maharashtra
+Maharashtra apartments
+new projects in Maharashtra
+buy flat in Maharashtra
+flats in 411027
+apartments in 411027
+2 BHK in 411027
+3 BHK in 411027
+flats near 411027
+apartments near 411027
+411027 apartments
+new projects in 411027
+buy flat in 411027
+flats in Bhosari MIDC
+apartments in Bhosari MIDC
+2 BHK in Bhosari MIDC
+3 BHK in Bhosari MIDC
+apartments near Bhosari MIDC
+Bhosari MIDC apartments
+new projects in Bhosari MIDC
+buy flat in Bhosari MIDC
+flats in Wakad IT Hub
+apartments in Wakad IT Hub
+2 BHK in Wakad IT Hub
+3 BHK in Wakad IT Hub
+flats near Wakad IT Hub
+apartments near Wakad IT Hub
+Wakad IT Hub apartments
+new projects in Wakad IT Hub
+buy flat in Wakad IT Hub
+flats in Pimple Saudagar
+flats near Pimple Saudagar
+apartments near Pimple Saudagar
+Pimple Saudagar apartments
+new projects in Pimple Saudagar
+buy flat in Pimple Saudagar
+flats in Rajiv Gandhi Infotech Park Hinjewadi
+apartments in Rajiv Gandhi Infotech Park Hinjewadi
+2 BHK in Rajiv Gandhi Infotech Park Hinjewadi
+3 BHK in Rajiv Gandhi Infotech Park Hinjewadi
+flats near Rajiv Gandhi Infotech Park Hinjewadi
+apartments near Rajiv Gandhi Infotech Park Hinjewadi
+Rajiv Gandhi Infotech Park Hinjewadi apartments
+new projects in Rajiv Gandhi Infotech Park Hinjewadi
+buy flat in Rajiv Gandhi Infotech Park Hinjewadi
+flats in Hinjewadi
+flats near Hinjewadi
+Hinjewadi apartments
+new projects in Hinjewadi
+buy flat in Hinjewadi
+flats in Talawade IT Park
+apartments in Talawade IT Park
+2 BHK in Talawade IT Park
+3 BHK in Talawade IT Park
+apartments near Talawade IT Park
+Talawade IT Park apartments
+new projects in Talawade IT Park
+buy flat in Talawade IT Park
+flats in Wagholi
+flats near Wagholi
+apartments near Wagholi
+Wagholi apartments
+new projects in Wagholi
+buy flat in Wagholi
+flats in Magarpatta City
+apartments in Magarpatta City
+2 BHK in Magarpatta City
+3 BHK in Magarpatta City
+flats near Magarpatta City
+Magarpatta City apartments
+new projects in Magarpatta City
+buy flat in Magarpatta City
+flats in Pimpri-Chinchwad Industrial Area
+apartments in Pimpri-Chinchwad Industrial Area
+2 BHK in Pimpri-Chinchwad Industrial Area
+3 BHK in Pimpri-Chinchwad Industrial Area
+flats near Pimpri-Chinchwad Industrial Area
+apartments near Pimpri-Chinchwad Industrial Area
+Pimpri-Chinchwad Industrial Area apartments
+new projects in Pimpri-Chinchwad Industrial Area
+buy flat in Pimpri-Chinchwad Industrial Area
+flats in Pimpri
+flats near Pimpri
+apartments near Pimpri
+Pimpri apartments
+new projects in Pimpri
+buy flat in Pimpri
+flats in Chinchwad
+flats near Chinchwad
+apartments near Chinchwad
+Chinchwad apartments
+new projects in Chinchwad
+buy flat in Chinchwad
+flats in Bhosari
+flats near Bhosari
+Bhosari apartments
+new projects in Bhosari
+buy flat in Bhosari
+flats in Pimple Nilakh
+flats near Pimple Nilakh
+apartments near Pimple Nilakh
+Pimple Nilakh apartments
+new projects in Pimple Nilakh
+buy flat in Pimple Nilakh
+
+--- TIER 2 KEYWORDS: BROAD CITY-WIDE TERMS (Lower Bids / Cautious Budget) ---
+# Caution: Broad terms ('flats in Bangalore') are expensive and less targeted.
+# Recommendation: Bid 40-50% lower than Tier 1 terms.
+flats in Pune
+apartments in Pune
+new residential projects in Pune
+luxury apartments in Pune
+gated community flats in Pune
+buy apartment in Pune
+
+--- CAUTIONS ---
+- Caution 1: 'Flats in Pune' is broad and expensive. Give more budget to specific terms ('Vision', 'Flora', 'Pimple') and bid lower (e.g. -40% to -50% CPC) on the city-wide ones.
+- Caution 2: Add the exact same shared negative keyword list to both campaigns (rent, PG, resale, jobs and so on) so ad spend is never wasted on non-buyers.
+
+--- NEGATIVE KEYWORDS (46 terms) ---
+rent
+for rent
+rental
+to rent
+flat on rent
+house for rent
+PG
+paying guest
+hostel
+room for rent
+single room
+lease
+resale
+second hand
+used flat
+distress sale
+broker
+brokerage
+agent commission
+free flat
+government quarters
+commercial office
+office space
+coworking
+warehouse
+industrial plot
+jobs
+job vacancy
+careers
+recruitment
+hiring
+walk in interview
+salary
+interview questions
+glassdoor
+internship
+wiki
+wikipedia
+syllabus
+pincode
+pin code
+bus route
+bus stop
+metro station timing
+complaints
+consumer court

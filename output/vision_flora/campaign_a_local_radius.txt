@@ -1,0 +1,84 @@
+============================================================
+GOOGLE ADS CAMPAIGN A: LOCAL RADIUS
+============================================================
+Campaign Name: Vision Flora - Campaign A (Local Radius)
+Location Option: Presence ('People in or regularly in your targeted locations')
+
+--- TARGET LOCATIONS (Google Ads Bulk Radius Targets) ---
+(3km:18.6321:73.8468)
+(3km:18.6011:73.7641)
+(2km:18.5987:73.7978)
+(3km:18.5947:73.7095)
+(2km:18.5862:73.7339)
+(3km:18.7049:73.7888)
+(2km:18.5808:73.9787)
+(3km:18.5158:73.9272)
+
+--- KEYWORDS (18 generic keywords) ---
+# Generic keywords work here because the geographic radius is strictly targeted to tech parks/rental areas.
+2 BHK flats
+2 BHK apartments
+2 BHK flats for sale
+2 BHK ready to move flats
+buy 2 BHK flat
+3 BHK flats
+3 BHK apartments
+3 BHK flats for sale
+3 BHK ready to move flats
+buy 3 BHK flat
+new apartments
+ready to move flats
+flats for sale
+apartments for sale
+luxury apartments for sale
+gated community flats
+new residential projects
+premium apartments
+
+--- NEGATIVE KEYWORDS (46 terms) ---
+rent
+for rent
+rental
+to rent
+flat on rent
+house for rent
+PG
+paying guest
+hostel
+room for rent
+single room
+lease
+resale
+second hand
+used flat
+distress sale
+broker
+brokerage
+agent commission
+free flat
+government quarters
+commercial office
+office space
+coworking
+warehouse
+industrial plot
+jobs
+job vacancy
+careers
+recruitment
+hiring
+walk in interview
+salary
+interview questions
+glassdoor
+internship
+wiki
+wikipedia
+syllabus
+pincode
+pin code
+bus route
+bus stop
+metro station timing
+complaints
+consumer court

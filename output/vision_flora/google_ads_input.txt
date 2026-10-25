@@ -1,0 +1,66 @@
+# ============================================================
+# GOOGLE ADS INPUT: LOCATIONS & SEARCH KEYWORDS
+# Project: Vision Flora (Pune)
+# ============================================================
+
+# --- LOCATIONS (Radius Targets for Google Ads) ---
+(3km:18.6321:73.8468)
+(3km:18.6011:73.7641)
+(2km:18.5987:73.7978)
+(3km:18.5947:73.7095)
+(2km:18.5862:73.7339)
+(3km:18.7049:73.7888)
+(2km:18.5808:73.9787)
+(3km:18.5158:73.9272)
+
+# --- SEARCH KEYWORDS ---
+2 BHK flats
+2 BHK apartments
+2 BHK flats for sale
+2 BHK ready to move flats
+buy 2 BHK flat
+3 BHK flats
+3 BHK apartments
+3 BHK flats for sale
+3 BHK ready to move flats
+buy 3 BHK flat
+new apartments
+ready to move flats
+flats for sale
+apartments for sale
+luxury apartments for sale
+gated community flats
+new residential projects
+premium apartments
+flats near Bhosari MIDC
+apartments near Bhosari
+2 BHK near Bhosari MIDC
+3 BHK near Bhosari
+flats near Wakad
+apartments near Wakad IT Park
+2 BHK near Wakad
+3 BHK near Wakad
+flats for sale in Pimple Saudagar
+apartments in Pimple Saudagar
+2 BHK in Pimple Saudagar
+3 BHK in Pimple Saudagar
+flats near Hinjewadi IT Park
+apartments near Hinjewadi
+2 BHK near Hinjewadi
+3 BHK near Hinjewadi IT Park
+flats for sale in Hinjewadi
+apartments in Hinjewadi
+2 BHK in Hinjewadi
+3 BHK in Hinjewadi
+flats near Talawade IT Park
+apartments near Talawade
+2 BHK near Talawade
+homes near Talawade IT Park
+flats for sale in Wagholi
+apartments in Wagholi
+2 BHK in Wagholi
+3 BHK in Wagholi
+flats near Magarpatta
+apartments near Magarpatta City
+2 BHK near Magarpatta
+3 BHK near Magarpatta

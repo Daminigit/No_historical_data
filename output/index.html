@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurelia Heights — Google Ads Targeted Campaign Map</title>
+  
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-dark: #090d16;
+      --panel-bg: rgba(15, 23, 42, 0.88);
+      --panel-border: rgba(255, 255, 255, 0.08);
+      --card-bg: rgba(30, 41, 59, 0.65);
+      --card-border: rgba(255, 255, 255, 0.06);
+      --accent-project: #f59e0b;
+      --accent-it: #38bdf8;
+      --accent-rental: #10b981;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --radius: 14px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-main);
+      overflow: hidden;
+      height: 100vh;
+      display: flex;
+    }
+
+    /* Map full container */
+    #map {
+      flex: 1;
+      height: 100%;
+      background: #0b1120;
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.2);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    /* Sidebar overlay */
+    .sidebar {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      bottom: 16px;
+      width: 440px;
+      background: var(--panel-bg);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--panel-border);
+      border-radius: var(--radius);
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 1px rgba(255, 255, 255, 0.2);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .header {
+      padding: 22px 24px 16px;
+      border-bottom: 1px solid var(--panel-border);
+    }
+
+    .brand-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(245, 158, 11, 0.12);
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .brand-tag .pulse-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #fbbf24;
+      box-shadow: 0 0 8px #fbbf24;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+      line-height: 1.25;
+    }
+
+    .subtitle {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 5px;
+      line-height: 1.4;
+    }
+
+    /* KPI Summary Stats Bar */
+    .kpi-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      padding: 14px 24px;
+      background: rgba(0, 0, 0, 0.25);
+      border-bottom: 1px solid var(--panel-border);
+    }
+
+    .kpi-box {
+      text-align: center;
+      padding: 8px 4px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.04);
+    }
+
+    .kpi-val {
+      font-size: 17px;
+      font-weight: 800;
+      color: #fff;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .kpi-label {
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      margin-top: 2px;
+      letter-spacing: 0.04em;
+    }
+
+    /* Filter pills */
+    .filter-bar {
+      display: flex;
+      gap: 6px;
+      padding: 12px 24px 8px;
+    }
+
+    .filter-btn {
+      flex: 1;
+      padding: 7px 10px;
+      border-radius: 8px;
+      font-size: 11px;
+      font-weight: 600;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+    }
+
+    .filter-btn:hover {
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+    }
+
+    .filter-btn.active {
+      background: rgba(255, 255, 255, 0.14);
+      color: #fff;
+      border-color: rgba(255, 255, 255, 0.25);
+    }
+
+    .filter-btn.active.filter-it {
+      background: rgba(56, 189, 248, 0.16);
+      color: #38bdf8;
+      border-color: rgba(56, 189, 248, 0.4);
+    }
+
+    .filter-btn.active.filter-rental {
+      background: rgba(16, 185, 129, 0.16);
+      color: #34d399;
+      border-color: rgba(16, 185, 129, 0.4);
+    }
+
+    /* Project switcher pills */
+    .project-selector {
+      display: flex;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .project-pill {
+      flex: 1;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #94a3b8;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 6px 8px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .project-pill:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+    }
+
+    .project-pill.active {
+      background: rgba(56, 189, 248, 0.18);
+      border-color: #38bdf8;
+      color: #38bdf8;
+      box-shadow: 0 0 12px rgba(56, 189, 248, 0.25);
+    }
+
+    /* Locations List */
+    .location-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 8px 18px 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .loc-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 14px;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .loc-card:hover {
+      background: rgba(51, 65, 85, 0.7);
+      border-color: rgba(255, 255, 255, 0.2);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 24px -6px rgba(0, 0, 0, 0.4);
+    }
+
+    .loc-card.selected {
+      border-color: #38bdf8;
+      background: rgba(30, 58, 102, 0.5);
+      box-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
+    }
+
+    .loc-card-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .loc-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.3;
+    }
+
+    .loc-type-badge {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+    }
+
+    .badge-rental {
+      background: rgba(16, 185, 129, 0.18);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.35);
+    }
+
+    .badge-it {
+      background: rgba(56, 189, 248, 0.18);
+      color: #38bdf8;
+      border: 1px solid rgba(56, 189, 248, 0.35);
+    }
+
+    .loc-details {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 6px;
+    }
+
+    .detail-item {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .detail-item strong {
+      color: #f1f5f9;
+      font-weight: 600;
+    }
+
+    .score-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      font-size: 11px;
+      font-weight: 700;
+      color: #fbbf24;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .loc-footer {
+      margin-top: 9px;
+      padding-top: 8px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 10.5px;
+      color: var(--text-dim);
+    }
+
+    .code-badge {
+      font-family: 'JetBrains Mono', monospace;
+      color: #38bdf8;
+      background: rgba(56, 189, 248, 0.08);
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    /* Floating Legend */
+    .map-legend {
+      position: absolute;
+      bottom: 24px;
+      right: 24px;
+      background: var(--panel-bg);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--panel-border);
+      border-radius: 12px;
+      padding: 14px 18px;
+      z-index: 1000;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.5);
+      font-size: 12px;
+    }
+
+    .legend-title {
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 8px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-dim);
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 6px;
+      color: var(--text-muted);
+      font-size: 11.5px;
+    }
+
+    .legend-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .legend-circle {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+    }
+
+    .circle-project {
+      background: #f59e0b;
+      box-shadow: 0 0 10px #f59e0b;
+      border: 2px solid #fff;
+    }
+
+    .circle-rental {
+      border: 2px solid #10b981;
+      background: rgba(16, 185, 129, 0.25);
+    }
+
+    .circle-it {
+      border: 2px solid #38bdf8;
+      background: rgba(56, 189, 248, 0.25);
+    }
+
+    /* Custom Leaflet Tooltip & Popup styles */
+    .leaflet-popup-content-wrapper {
+      background: rgba(15, 23, 42, 0.96) !important;
+      backdrop-filter: blur(14px);
+      border: 1px solid rgba(255, 255, 255, 0.15) !important;
+      border-radius: 12px !important;
+      color: #fff !important;
+      padding: 6px !important;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.7) !important;
+    }
+    .leaflet-popup-tip {
+      background: rgba(15, 23, 42, 0.96) !important;
+      border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    }
+    .leaflet-popup-content {
+      margin: 10px 14px !important;
+      line-height: 1.4 !important;
+    }
+    .popup-title {
+      font-weight: 800;
+      font-size: 14px;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+    .popup-meta {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+    .popup-stat {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: #38bdf8;
+      margin-top: 4px;
+    }
+
+    /* Pulse animation for project marker */
+    .radar-pulse {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: rgba(245, 158, 11, 0.4);
+      border: 2px solid #f59e0b;
+      box-shadow: 0 0 16px #f59e0b;
+      position: relative;
+    }
+    .radar-pulse::after {
+      content: '';
+      position: absolute;
+      top: -12px;
+      left: -12px;
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      border: 2px solid rgba(245, 158, 11, 0.6);
+      animation: pulse 2s infinite ease-out;
+    }
+    @keyframes pulse {
+      0% { transform: scale(0.6); opacity: 1; }
+      100% { transform: scale(1.6); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar Overlay -->
+  <aside class="sidebar">
+    <div class="header">
+      <div class="brand-tag">
+        <span class="pulse-dot"></span>
+        Google Ads Location Targeter
+      </div>
+      <h1 class="title" id="proj-title">Kunjban Society</h1>
+      <p class="subtitle" id="proj-subtitle">Hirawadi, Panchavati, Nashik &bull; Radius Targets &amp; Commute Radii</p>
+
+      <div class="project-selector">
+        <button id="pill-vision_flora" class="project-pill active" onclick="switchProject('vision_flora')">📍 Vision Flora (Pune)</button>
+        <button id="pill-aurelia" class="project-pill" onclick="switchProject('aurelia')">📍 Aurelia (Bengaluru)</button>
+        <button id="pill-kunjban" class="project-pill" onclick="switchProject('kunjban')">📍 Kunjban (Nashik)</button>
+      </div>
+    </div>
+
+    <!-- Campaign Mode Tabs -->
+    <div style="display: flex; gap: 4px; padding: 10px 18px 4px; border-bottom: 1px solid var(--panel-border); background: rgba(0,0,0,0.2);">
+      <button class="filter-btn active" id="tab-a" onclick="setCampaignMode('A')">🎯 Campaign A</button>
+      <button class="filter-btn" id="tab-b" onclick="setCampaignMode('B')">🌐 Campaign B</button>
+      <button class="filter-btn" id="tab-c" onclick="setCampaignMode('C')">⚠️ Cautions</button>
+    </div>
+
+    <!-- KPI Summary Row -->
+    <div class="kpi-row" id="kpi-container">
+      <!-- Dynamically populated -->
+    </div>
+
+    <!-- Filter Buttons Bar -->
+    <div class="filter-bar" id="sub-filter-bar">
+      <!-- Sub filters or action buttons -->
+    </div>
+
+    <!-- Cards Container -->
+    <div class="location-list" id="location-list">
+      <!-- Populated dynamically via JS -->
+    </div>
+  </aside>
+
+  <!-- Interactive Map Canvas -->
+  <div id="map"></div>
+
+  <!-- Legend Box -->
+  <div class="map-legend" id="map-legend-box">
+    <div class="legend-title" id="legend-title-text">Campaign A Legend</div>
+    <div class="legend-item">
+      <div class="legend-circle circle-project"></div>
+      <span id="legend-project-name"><strong>Kunjban Society</strong> (Project Point)</span>
+    </div>
+    <div class="legend-item" id="legend-target-item">
+      <div class="legend-circle circle-it"></div>
+      <span id="legend-target-label"><strong>IT Parks (3 km)</strong> &bull; Setting: Presence</span>
+    </div>
+    <div class="legend-item" style="color: #94a3b8; font-size: 11px; margin-top: 4px;" id="legend-note">
+      Generic keywords targeted strictly inside radius.
+    </div>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <script>
+    const projectsData = {
+      kunjban: {
+        id: "kunjban",
+        name: "Kunjban Society",
+        city: "Nashik",
+        address: "Kunjban Society, Hirawadi, Panchavati, Nashik",
+        lat: 20.0150,
+        lng: 73.8100,
+        emi_2bhk: 29159,
+        emi_3bhk: 45127,
+        targets: [
+          {
+            id: "loc-k1",
+            name: "Hirawadi",
+            type: "rental_area",
+            lat: 20.0191,
+            lng: 73.8110,
+            radius_km: 2,
+            drive_minutes: 2.6,
+            score: 9.87,
+            score_label: "High",
+            score_reason: "High rent/EMI ratio 0.48 (2BHK), 3 min drive",
+            ads_code: "(2km:20.0191:73.8110)",
+            source_url: "Hirawadi Rental Corridor"
+          },
+          {
+            id: "loc-k2",
+            name: "Panchavati",
+            type: "rental_area",
+            lat: 20.0095,
+            lng: 73.7919,
+            radius_km: 2,
+            drive_minutes: 8.4,
+            score: 9.58,
+            score_label: "High",
+            score_reason: "High rent/EMI ratio 0.51 (2BHK), 8 min drive",
+            ads_code: "(2km:20.0095:73.7919)",
+            source_url: "Panchavati Rental Corridor"
+          },
+          {
+            id: "loc-k3",
+            name: "Indira Nagar",
+            type: "rental_area",
+            lat: 19.9723,
+            lng: 73.7817,
+            radius_km: 2,
+            drive_minutes: 18.2,
+            score: 9.09,
+            score_label: "High",
+            score_reason: "High rent/EMI ratio 0.51 (2BHK), 18 min drive",
+            ads_code: "(2km:19.9723:73.7817)",
+            source_url: "Indira Nagar Residential Hub"
+          },
+          {
+            id: "loc-k4",
+            name: "Nashik Business Park",
+            type: "it_park",
+            lat: 19.9880,
+            lng: 73.7834,
+            radius_km: 3,
+            drive_minutes: 11.8,
+            score: 8.23,
+            score_label: "High",
+            score_reason: "Primary business park, 12 min drive",
+            ads_code: "(3km:19.9880:73.7834)",
+            source_url: "Nashik Business Hub"
+          },
+          {
+            id: "loc-k5",
+            name: "Nashik Tech Park",
+            type: "it_park",
+            lat: 19.9004,
+            lng: 73.8380,
+            radius_km: 3,
+            drive_minutes: 39.1,
+            score: 4.13,
+            score_label: "Medium",
+            score_reason: "Tech park, 39 min drive",
+            ads_code: "(3km:19.9004:73.8380)",
+            source_url: "Nashik Tech Park Hub"
+          }
+        ],
+        droppedTargets: [
+          {
+            name: "Nashik Cyber Park",
+            type: "it_park",
+            lat: 20.0024,
+            lng: 73.7806,
+            reason: "overlaps with 'Panchavati' (92% area overlap, 1.42 km)"
+          }
+        ],
+        specificKeywords: [
+          "flats for sale in Hirawadi", "apartments in Hirawadi", "3 BHK in Hirawadi", "2 BHK in Hirawadi",
+          "flats for sale in Panchavati Nashik", "apartments in Panchavati", "3 BHK in Panchavati", "2 BHK in Panchavati",
+          "flats for sale in Indira Nagar Nashik", "apartments in Indira Nagar", "3 BHK in Indira Nagar", "2 BHK in Indira Nagar",
+          "flats near Nashik Business Park", "apartments near Nashik Business Park", "2 BHK near Nashik Business Park",
+          "flats near Nashik Cyber Park", "flats near Nashik Tech Park", "2 BHK near Nashik Tech Park"
+        ],
+        broadCityKeywords: [
+          "flats in Nashik", "apartments in Nashik", "new residential projects in Nashik",
+          "luxury apartments in Nashik", "gated community flats in Nashik", "buy apartment in Nashik"
+        ],
+        caution1: "Caution 1: 'Flats in Nashik' is broad and expensive. Give more budget to specific terms ('flats in Hirawadi', 'Panchavati apartments', '2 BHK near Nashik Business Park') and bid lower on city-wide ones."
+      },
+      aurelia: {
+        id: "aurelia",
+        name: "Aurelia Heights",
+        city: "Bengaluru",
+        address: "Hoodi, Whitefield, Bengaluru",
+        lat: 12.9800,
+        lng: 77.7200,
+        emi_2bhk: 66649,
+        emi_3bhk: 93725,
+        targets: [
+          {
+            id: "loc-a1",
+            name: "Whitefield",
+            type: "rental_area",
+            lat: 12.9698,
+            lng: 77.7500,
+            radius_km: 2,
+            drive_minutes: 17.8,
+            score: 9.11,
+            score_label: "High",
+            score_reason: "High rent/EMI ratio 0.59 (3BHK), 18 min drive",
+            ads_code: "(2km:12.9698:77.7500)",
+            source_url: "Whitefield Rental Corridor"
+          },
+          {
+            id: "loc-a2",
+            name: "Marathahalli",
+            type: "rental_area",
+            lat: 12.9569,
+            lng: 77.7011,
+            radius_km: 2,
+            drive_minutes: 25.4,
+            score: 8.73,
+            score_label: "High",
+            score_reason: "High rent/EMI ratio 0.51 (3BHK), 25 min drive",
+            ads_code: "(2km:12.9569:77.7011)",
+            source_url: "Marathahalli Tech Corridor"
+          },
+          {
+            id: "loc-a3",
+            name: "ITPL (International Tech Park)",
+            type: "it_park",
+            lat: 12.9858,
+            lng: 77.7356,
+            radius_km: 3,
+            drive_minutes: 10.3,
+            score: 8.46,
+            score_label: "High",
+            score_reason: "Primary tech employer hub, 10 min commute (partial overlap with Whitefield allowed)",
+            ads_code: "(3km:12.9858:77.7356)",
+            source_url: "IT Corridor / Office Hub"
+          },
+          {
+            id: "loc-a4",
+            name: "Hoodi",
+            type: "rental_area",
+            lat: 12.9896,
+            lng: 77.7127,
+            radius_km: 2,
+            drive_minutes: 11.8,
+            score: 4.71,
+            score_label: "Medium",
+            score_reason: "Rental hub, 12 min commute (partial overlap with ITPL allowed)",
+            ads_code: "(2km:12.9896:77.7127)",
+            source_url: "Hoodi Residential Hub"
+          },
+          {
+            id: "loc-a5",
+            name: "Prestige Tech Park",
+            type: "it_park",
+            lat: 12.9423,
+            lng: 77.6936,
+            radius_km: 3,
+            drive_minutes: 35.4,
+            score: 4.69,
+            score_label: "Medium",
+            score_reason: "Outer Ring Road IT corridor hub (Kalyani Tech Park removed due to >90% overlap / 0.79 km distance)",
+            ads_code: "(3km:12.9423:77.6936)",
+            source_url: "Outer Ring Road IT Corridor"
+          }
+        ],
+        droppedTargets: [
+          {
+            name: "Kalyani Tech Park",
+            type: "it_park",
+            lat: 12.9368,
+            lng: 77.6890,
+            reason: "overlaps with 'Prestige Tech Park' (distance 0.79 km < 1.0 km threshold)"
+          }
+        ],
+        specificKeywords: [
+          "flats in Whitefield", "apartments in Whitefield", "2 BHK in Whitefield", "3 BHK in Whitefield",
+          "flats in Hoodi", "Hoodi apartments", "2 BHK in Hoodi",
+          "flats near ITPL", "apartments near ITPL", "2 BHK near ITPL",
+          "apartments near Prestige Tech Park", "flats in Marathahalli"
+        ],
+        broadCityKeywords: [
+          "flats in Bangalore", "apartments in Bangalore", "new residential projects in Bangalore",
+          "luxury apartments in Bangalore", "buy apartment in Bangalore"
+        ],
+        caution1: "Caution 1: 'Flats in Bangalore' is broad and expensive. Someone searching that may want Electronic City or Hebbal, not Whitefield. Give more budget to specific terms ('flats in Whitefield', 'Hoodi apartments', '2 BHK near ITPL') and bid lower on city-wide ones."
+      },
+      vision_flora: {
+        id: "vision_flora",
+        name: "Vision Flora",
+        city: "Pune",
+        address: "Vision Flora, Pimple Saudagar, Pimpri-Chinchwad, Pune",
+        lat: 18.5990,
+        lng: 73.7980,
+        emi_2bhk: 59012,
+        emi_3bhk: 83311,
+        targets: [
+          {
+            id: "loc-v1",
+            name: "Bhosari MIDC",
+            type: "it_park",
+            lat: 18.6321,
+            lng: 73.8468,
+            radius_km: 3,
+            drive_minutes: 15.8,
+            score: 7.63,
+            score_label: "High",
+            score_reason: "Primary PCMC auto & engineering industrial corridor, 16 min drive",
+            ads_code: "(3km:18.6321:73.8468)",
+            source_url: "Bhosari MIDC Industrial Hub"
+          },
+          {
+            id: "loc-v2",
+            name: "Wakad IT Hub",
+            type: "it_park",
+            lat: 18.6011,
+            lng: 73.7641,
+            radius_km: 3,
+            drive_minutes: 16.1,
+            score: 7.58,
+            score_label: "High",
+            score_reason: "Primary IT tech & commercial corridor, 16 min drive",
+            ads_code: "(3km:18.6011:73.7641)",
+            source_url: "Wakad IT Corridor"
+          },
+          {
+            id: "loc-v3",
+            name: "Pimple Saudagar",
+            type: "rental_area",
+            lat: 18.5987,
+            lng: 73.7978,
+            radius_km: 2,
+            drive_minutes: 0.1,
+            score: 5.0,
+            score_label: "Medium",
+            score_reason: "Immediate home project locality, 0 min drive (core resident catchment)",
+            ads_code: "(2km:18.5987:73.7978)",
+            source_url: "Pimple Saudagar Rental Hub"
+          },
+          {
+            id: "loc-v4",
+            name: "Rajiv Gandhi Infotech Park Hinjewadi",
+            type: "it_park",
+            lat: 18.5947,
+            lng: 73.7095,
+            radius_km: 3,
+            drive_minutes: 33.6,
+            score: 4.96,
+            score_label: "Medium",
+            score_reason: "Pune's #1 IT cluster (Infosys, Wipro, TCS), 34 min drive",
+            ads_code: "(3km:18.5947:73.7095)",
+            source_url: "Rajiv Gandhi Infotech Park Hinjewadi"
+          },
+          {
+            id: "loc-v5",
+            name: "Hinjewadi",
+            type: "rental_area",
+            lat: 18.5862,
+            lng: 73.7339,
+            radius_km: 2,
+            drive_minutes: 23.8,
+            score: 4.41,
+            score_label: "Medium",
+            score_reason: "High rent/EMI ratio 0.38, 24 min drive (IT tenant feeder corridor)",
+            ads_code: "(2km:18.5862:73.7339)",
+            source_url: "Hinjewadi Rental Cluster"
+          },
+          {
+            id: "loc-v6",
+            name: "Talawade IT Park",
+            type: "it_park",
+            lat: 18.7049,
+            lng: 73.7888,
+            radius_km: 3,
+            drive_minutes: 40.5,
+            score: 3.92,
+            score_label: "Low",
+            score_reason: "Northern PCMC IT park hub, 40 min drive",
+            ads_code: "(3km:18.7049:73.7888)",
+            source_url: "Talawade Software Park"
+          }
+        ],
+        droppedTargets: [
+          {
+            name: "Pimpri-Chinchwad Industrial Area",
+            type: "it_park",
+            lat: 18.6293,
+            lng: 73.8114,
+            reason: "bounding box too large (whole-district result, covered by Bhosari & Wakad circles)"
+          },
+          {
+            name: "Chinchwad",
+            type: "rental_area",
+            lat: 18.6387,
+            lng: 73.7952,
+            reason: "ratio 0.28 < 0.30 — renters below project affordability threshold"
+          },
+          {
+            name: "Magarpatta City",
+            type: "it_park",
+            lat: 18.5158,
+            lng: 73.9272,
+            reason: "54 min drive across town in East Pune (low relevance for Pimple Saudagar)"
+          }
+        ],
+        specificKeywords: [
+          "flats near Hinjewadi IT Park", "apartments near Hinjewadi", "2 BHK near Hinjewadi", "3 BHK near Hinjewadi IT Park",
+          "flats near Wakad", "apartments near Wakad IT Park", "2 BHK near Wakad", "3 BHK near Wakad",
+          "flats near Bhosari MIDC", "apartments near Bhosari", "2 BHK near Bhosari MIDC",
+          "flats for sale in Pimple Saudagar", "apartments in Pimple Saudagar", "2 BHK in Pimple Saudagar", "3 BHK in Pimple Saudagar",
+          "flats for sale in Hinjewadi", "apartments in Hinjewadi", "flats near Talawade IT Park"
+        ],
+        broadCityKeywords: [
+          "flats in Pune", "apartments in Pune", "new residential projects in Pune",
+          "luxury apartments in Pune", "gated community flats in Pune", "buy apartment in Pune"
+        ],
+        caution1: "Caution 1: 'Flats in Pune' is broad and expensive. Give more budget to specific terms ('flats in Pimple Saudagar', 'Wakad apartments', '2 BHK near Hinjewadi IT Park') and bid lower on city-wide ones."
+      }
+    };
+
+    const campaignAGenericKeywords = [
+      "2 BHK flats", "2 BHK apartments", "2 BHK flats for sale", "buy 2 BHK flat",
+      "3 BHK flats", "3 BHK apartments", "3 BHK flats for sale", "buy 3 BHK flat",
+      "new apartments", "ready to move flats", "flats for sale", "apartments for sale",
+      "luxury apartments for sale", "gated community flats", "new residential projects"
+    ];
+
+    const sharedNegatives = [
+      "rent", "for rent", "rental", "to rent", "flat on rent", "PG", "paying guest",
+      "hostel", "room for rent", "lease", "resale", "second hand", "used flat",
+      "broker", "brokerage", "agent commission", "commercial office", "coworking",
+      "jobs", "job vacancy", "careers", "recruitment", "salary", "interview questions"
+    ];
+
+    let currentProjectKey = 'kunjban';
+    let currentMode = 'A';
+
+    // Initialize Leaflet Map
+    const map = L.map('map', {
+      center: [20.0150, 73.8100],
+      zoom: 12,
+      zoomControl: false
+    });
+
+    L.control.zoom({ position: 'topright' }).addTo(map);
+
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+      attribution: '&copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+      maxZoom: 16
+    }).addTo(map);
+
+    const projectIcon = L.divIcon({
+      className: 'custom-project-pin',
+      html: `
+        <div style="position: relative; display: flex; align-items: center; justify-content: center;">
+          <div class="radar-pulse"></div>
+          <div style="position: absolute; width: 14px; height: 14px; background: #fff; border-radius: 50%; box-shadow: 0 0 10px #f59e0b;"></div>
+        </div>
+      `,
+      iconSize: [32, 32],
+      iconAnchor: [16, 16]
+    });
+
+    let projectMarker = null;
+    let mapLayers = [];
+
+    const kpiContainer = document.getElementById('kpi-container');
+    const subFilterBar = document.getElementById('sub-filter-bar');
+    const listContainer = document.getElementById('location-list');
+    const legendTitle = document.getElementById('legend-title-text');
+    const legendTargetLabel = document.getElementById('legend-target-label');
+    const legendNote = document.getElementById('legend-note');
+
+    function switchProject(key) {
+      currentProjectKey = key;
+      document.getElementById('pill-vision_flora').classList.toggle('active', key === 'vision_flora');
+      document.getElementById('pill-aurelia').classList.toggle('active', key === 'aurelia');
+      document.getElementById('pill-kunjban').classList.toggle('active', key === 'kunjban');
+
+      const pData = projectsData[key];
+      document.getElementById('proj-title').innerText = pData.name;
+      document.getElementById('proj-subtitle').innerHTML = `${pData.address} &bull; Radius Targets &amp; Commute Radii`;
+      document.getElementById('legend-project-name').innerHTML = `<strong>${pData.name}</strong> (Project Point)`;
+
+      // Clear existing layers
+      if (projectMarker) map.removeLayer(projectMarker);
+      mapLayers.forEach(l => {
+        map.removeLayer(l.circle);
+        map.removeLayer(l.marker);
+        map.removeLayer(l.line);
+      });
+      mapLayers = [];
+
+      // Add project pin
+      projectMarker = L.marker([pData.lat, pData.lng], { icon: projectIcon }).addTo(map);
+      projectMarker.bindPopup(`
+        <div class="popup-title">⭐ ${pData.name}</div>
+        <div class="popup-meta">${pData.address}</div>
+        <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 6px; margin-top: 4px;">
+          <div class="popup-stat">2BHK EMI: ₹${pData.emi_2bhk.toLocaleString('en-IN')}/mo</div>
+          <div class="popup-stat">3BHK EMI: ₹${pData.emi_3bhk.toLocaleString('en-IN')}/mo</div>
+        </div>
+      `);
+
+      // Add target circles
+      pData.targets.forEach(t => {
+        const radiusMeters = t.radius_km * 1000;
+        const circle = L.circle([t.lat, t.lng], {
+          radius: radiusMeters,
+          color: '#38bdf8',
+          weight: 2,
+          opacity: 0.9,
+          fillColor: '#38bdf8',
+          fillOpacity: 0.16,
+          dashArray: '6, 6'
+        }).addTo(map);
+
+        const centerMarker = L.circleMarker([t.lat, t.lng], {
+          radius: 6,
+          color: '#ffffff',
+          weight: 2,
+          fillColor: '#38bdf8',
+          fillOpacity: 1
+        }).addTo(map);
+
+        const connectorLine = L.polyline([
+          [pData.lat, pData.lng],
+          [t.lat, t.lng]
+        ], {
+          color: '#38bdf8',
+          weight: 1.5,
+          opacity: 0.45,
+          dashArray: '4, 8'
+        }).addTo(map);
+
+        circle.bindPopup(`
+          <div class="popup-title">${t.name}</div>
+          <div class="popup-meta">Target Radius: <strong>${t.radius_km} km</strong></div>
+          <div class="popup-stat">Commute: ${t.drive_minutes.toFixed(0)} min &bull; Score: ${t.score}</div>
+          <div class="popup-stat">Ads Code: ${t.ads_code}</div>
+        `);
+
+        mapLayers.push({ target: t, circle, marker: centerMarker, line: connectorLine });
+      });
+
+      // Fit map to points
+      const allCoords = [[pData.lat, pData.lng], ...pData.targets.map(t => [t.lat, t.lng])];
+      map.fitBounds(L.latLngBounds(allCoords).pad(0.2));
+
+      // Render mode
+      setCampaignMode(currentMode);
+    }
+
+    function setCampaignMode(mode) {
+      currentMode = mode;
+      document.getElementById('tab-a').classList.toggle('active', mode === 'A');
+      document.getElementById('tab-b').classList.toggle('active', mode === 'B');
+      document.getElementById('tab-c').classList.toggle('active', mode === 'C');
+
+      if (mode === 'A') renderCampaignA();
+      else if (mode === 'B') renderCampaignB();
+      else if (mode === 'C') renderCautions();
+    }
+
+    function renderCampaignA() {
+      const pData = projectsData[currentProjectKey];
+      mapLayers.forEach(l => {
+        l.circle.setStyle({ color: '#38bdf8', fillColor: '#38bdf8', fillOpacity: 0.18, dashArray: '6,6' });
+        l.marker.setStyle({ fillColor: '#38bdf8' });
+        l.line.setStyle({ color: '#38bdf8', opacity: 0.45 });
+      });
+
+      legendTitle.innerText = "Campaign A: Local Radius";
+      legendTargetLabel.innerHTML = `<strong>${pData.name} Radii</strong> &bull; Setting: Presence`;
+      legendNote.innerText = "Generic keywords targeted strictly inside radius. Overlapping circles allowed; >=90% overlap removed.";
+
+      kpiContainer.innerHTML = `
+        <div class="kpi-box">
+          <div class="kpi-val" style="color: #38bdf8;">${pData.targets.length} Circles</div>
+          <div class="kpi-label">Radius Targets</div>
+        </div>
+        <div class="kpi-box">
+          <div class="kpi-val" style="color: #10b981;">Presence</div>
+          <div class="kpi-label">Location Setting</div>
+        </div>
+        <div class="kpi-box">
+          <div class="kpi-val" style="color: #f59e0b;">Generic</div>
+          <div class="kpi-label">Keywords Work</div>
+        </div>
+      `;
+
+      subFilterBar.innerHTML = `
+        <span style="font-size: 11px; color: var(--text-dim); text-transform: uppercase; font-weight: 700; letter-spacing: 0.05em;">
+          Active Targets (Google Ads Editor Ready)
+        </span>
+      `;
+
+      let html = '';
+      pData.targets.forEach(t => {
+        const badgeClass = t.type === 'it_park' ? 'badge-it' : 'badge-rental';
+        const typeLabel = t.type === 'it_park' ? `${t.radius_km}km IT Park` : `${t.radius_km}km Rental Area`;
+        html += `
+          <div class="loc-card" onclick="map.flyTo([${t.lat}, ${t.lng}], 13.5)">
+            <div class="loc-card-header">
+              <span class="loc-title">${t.name}</span>
+              <span class="loc-type-badge ${badgeClass}">${typeLabel}</span>
+            </div>
+            <div class="loc-details">
+              <div class="detail-item">🚗 <strong>${t.drive_minutes.toFixed(0)} min</strong> commute</div>
+              <div class="detail-item">🎯 <strong>Presence</strong> target</div>
+            </div>
+            <div style="font-size: 11px; color: #94a3b8; margin: 4px 0 6px;">
+              ${t.score_reason}
+            </div>
+            <div class="loc-footer">
+              <span class="score-badge">★ Score ${t.score}</span>
+              <span class="code-badge">${t.ads_code}</span>
+            </div>
+          </div>
+        `;
+      });
+
+      html += `
+        <div class="loc-card" style="border-color: rgba(56, 189, 248, 0.3); background: rgba(15, 23, 42, 0.7);">
+          <div class="loc-card-header">
+            <span class="loc-title" style="color: #38bdf8;">Generic Keywords (${campaignAGenericKeywords.length})</span>
+            <span class="loc-type-badge badge-it">Local Only</span>
+          </div>
+          <div style="font-size: 11px; color: #94a3b8; margin-top: 6px; line-height: 1.5;">
+            Because these ads only show to people physically inside these targets, generic terms work without wasting spend:
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px;">
+            ${campaignAGenericKeywords.slice(0, 8).map(k => `<span style="background: rgba(255,255,255,0.06); padding: 2px 7px; border-radius: 4px; font-size: 10.5px; color: #e2e8f0;">${k}</span>`).join('')}
+            <span style="background: rgba(56, 189, 248, 0.15); padding: 2px 7px; border-radius: 4px; font-size: 10.5px; color: #38bdf8;">+${campaignAGenericKeywords.length - 8} more</span>
+          </div>
+        </div>
+      `;
+
+      listContainer.innerHTML = html;
+    }
+
+    function renderCampaignB() {
+      const pData = projectsData[currentProjectKey];
+      mapLayers.forEach(l => {
+        l.circle.setStyle({ color: '#f87171', fillColor: '#ef4444', fillOpacity: 0.22, dashArray: '4,4' });
+        l.marker.setStyle({ fillColor: '#ef4444' });
+        l.line.setStyle({ color: '#f87171', opacity: 0.3 });
+      });
+
+      legendTitle.innerText = `Campaign B: Rest of ${pData.city} / India`;
+      legendTargetLabel.innerHTML = "<strong>EXCLUDED ZONES</strong> &bull; From Campaign A";
+      legendNote.innerText = `Target: ${pData.city}/India &bull; Setting: Presence or interest.`;
+
+      kpiContainer.innerHTML = `
+        <div class="kpi-box">
+          <div class="kpi-val" style="color: #f59e0b;">${pData.city} / IN</div>
+          <div class="kpi-label">Included Location</div>
+        </div>
+        <div class="kpi-box">
+          <div class="kpi-val" style="color: #f87171;">${pData.targets.length} Excluded</div>
+          <div class="kpi-label">No Competition</div>
+        </div>
+        <div class="kpi-box">
+          <div class="kpi-val" style="color: #10b981;">Place Names</div>
+          <div class="kpi-label">Must Include</div>
+        </div>
+      `;
+
+      subFilterBar.innerHTML = `
+        <span style="font-size: 11px; color: #f87171; text-transform: uppercase; font-weight: 700; letter-spacing: 0.05em;">
+          🛡️ Campaign A Circles Excluded
+        </span>
+      `;
+
+      listContainer.innerHTML = `
+        <div class="loc-card" style="border-left: 3px solid #f87171;">
+          <div class="loc-card-header">
+            <span class="loc-title" style="color: #f87171;">Excluded Radius Targets (${pData.targets.length})</span>
+            <span class="loc-type-badge" style="background: rgba(239, 68, 68, 0.15); color: #f87171;">Excluded</span>
+          </div>
+          <div style="font-size: 11px; color: #cbd5e1; margin-top: 6px; line-height: 1.4;">
+            Campaign A's circles are excluded here so the two campaigns never compete with each other or bid against themselves!
+          </div>
+          <div style="margin-top: 8px; font-family: monospace; font-size: 10.5px; color: #fca5a5;">
+            ${pData.targets.map(t => `<div>• ${t.ads_code} [${t.name}]</div>`).join('')}
+          </div>
+        </div>
+
+        <div class="loc-card" style="border-left: 3px solid #10b981;">
+          <div class="loc-card-header">
+            <span class="loc-title" style="color: #34d399;">Tier 1: Specific Terms (High Bid)</span>
+            <span class="loc-type-badge" style="background: rgba(16, 185, 129, 0.15); color: #34d399;">High Budget</span>
+          </div>
+          <div style="font-size: 11px; color: #94a3b8; margin-top: 4px;">
+            Must include locality/landmark name so you don't pay for people searching in their own city:
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px;">
+            ${pData.specificKeywords.map(k => `<span style="background: rgba(16, 185, 129, 0.12); padding: 2px 7px; border-radius: 4px; font-size: 10.5px; color: #a7f3d0;">${k}</span>`).join('')}
+          </div>
+        </div>
+
+        <div class="loc-card" style="border-left: 3px solid #f59e0b;">
+          <div class="loc-card-header">
+            <span class="loc-title" style="color: #fbbf24;">Tier 2: Broad City Terms (Bid Lower)</span>
+            <span class="loc-type-badge" style="background: rgba(245, 158, 11, 0.15); color: #fbbf24;">-40% CPC</span>
+          </div>
+          <div style="font-size: 11px; color: #94a3b8; margin-top: 4px;">
+            Broad city terms are expensive. Bid lower and cap daily spend:
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px;">
+            ${pData.broadCityKeywords.map(k => `<span style="background: rgba(245, 158, 11, 0.12); padding: 2px 7px; border-radius: 4px; font-size: 10.5px; color: #fde68a;">${k}</span>`).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+    function renderCautions() {
+      const pData = projectsData[currentProjectKey];
+      kpiContainer.innerHTML = `
+        <div class="kpi-box">
+          <div class="kpi-val" style="color: #f59e0b;">2 Cautions</div>
+          <div class="kpi-label">Campaign B</div>
+        </div>
+        <div class="kpi-box">
+          <div class="kpi-val" style="color: #ef4444;">${sharedNegatives.length}+ Negatives</div>
+          <div class="kpi-label">Shared List</div>
+        </div>
+        <div class="kpi-box">
+          <div class="kpi-val" style="color: #38bdf8;">Zero Waste</div>
+          <div class="kpi-label">Budget Defense</div>
+        </div>
+      `;
+
+      subFilterBar.innerHTML = `
+        <span style="font-size: 11px; color: var(--text-dim); text-transform: uppercase; font-weight: 700; letter-spacing: 0.05em;">
+          Critical Best Practices
+        </span>
+      `;
+
+      listContainer.innerHTML = `
+        <div class="loc-card" style="border-left: 3px solid #f59e0b;">
+          <div class="loc-card-header">
+            <span class="loc-title" style="color: #fbbf24;">Caution 1: Broad City Terms</span>
+          </div>
+          <div style="font-size: 11.5px; color: #e2e8f0; line-height: 1.5; margin-top: 6px;">
+            ${pData.caution1}
+          </div>
+        </div>
+
+        <div class="loc-card" style="border-left: 3px solid #ef4444;">
+          <div class="loc-card-header">
+            <span class="loc-title" style="color: #f87171;">Caution 2: Shared Negative Keywords</span>
+          </div>
+          <div style="font-size: 11.5px; color: #e2e8f0; line-height: 1.5; margin-top: 6px;">
+            Add the exact same negative keyword list to both campaigns (rent, PG, resale, jobs and so on) so you never waste ad budget on non-buyers.
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 4px; margin-top: 10px;">
+            ${sharedNegatives.map(n => `<span style="background: rgba(239, 68, 68, 0.12); border: 1px solid rgba(239, 68, 68, 0.25); color: #fca5a5; padding: 2px 7px; border-radius: 4px; font-size: 10.5px;">-${n}</span>`).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+    // Initial render with Vision Flora
+    switchProject('vision_flora');
+  </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+# How far from the project to look for places
+search_radius_km: 25
+
+# Drop places whose peak-hour drive time exceeds this
+max_drive_minutes: 60
+
+# Targeting circle size
+radius_km_it_park: 3
+radius_km_rental: 2
+
+# Maximum radius targets written to the output file (hard Google Ads cap: 500)
+max_targets: 50
+
+# Overlap deduplication: circles that almost fully overlap are removed, keeping the higher score
+# 1. Centers within this distance (km) are considered overlapping
+overlap_threshold_km: 1.0
+# 2. Maximum circle area overlap fraction allowed for a lower-scored target (0.90 = 90% area covered)
+overlap_threshold_ratio: 0.90
+
+# Home loan assumptions used to compute EMI
+down_payment_pct: 20
+interest_rate_pct: 8.5
+tenure_years: 20
+
+# Rent ÷ EMI bands. Evaluated top to bottom; first matching band wins.
+# ratio_max is exclusive upper bound (last band should be very large).
+ratio_bands:
+  - ratio_max: 0.30
+    score: 1
+    label: "low"
+  - ratio_max: 0.45
+    score: 5
+    label: "medium"
+  - ratio_max: 0.90
+    score: 10
+    label: "high"
+  - ratio_max: 9999
+    score: 5
+    label: "medium"

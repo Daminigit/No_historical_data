@@ -1,0 +1,257 @@
+Campaign,Ad Group,Location,Excluded Location,Keyword,Criterion Type,Location Setting,Max CPC,Notes
+Kunjban Society - Campaign A (Local Radius),Locations,(2km:20.0191:73.8110),,,,Presence,,Campaign A Radius Target
+Kunjban Society - Campaign A (Local Radius),Locations,(2km:20.0095:73.7919),,,,Presence,,Campaign A Radius Target
+Kunjban Society - Campaign A (Local Radius),Locations,(2km:19.9723:73.7817),,,,Presence,,Campaign A Radius Target
+Kunjban Society - Campaign A (Local Radius),Locations,(3km:19.9880:73.7834),,,,Presence,,Campaign A Radius Target
+Kunjban Society - Campaign A (Local Radius),Locations,(3km:19.9004:73.8380),,,,Presence,,Campaign A Radius Target
+Kunjban Society - Campaign A (Local Radius),Generic Units,,,2 BHK flats,Phrase,Presence,Default,Campaign A Generic Keyword
+Kunjban Society - Campaign A (Local Radius),Generic Units,,,2 BHK apartments,Phrase,Presence,Default,Campaign A Generic Keyword
+Kunjban Society - Campaign A (Local Radius),Generic Units,,,2 BHK flats for sale,Phrase,Presence,Default,Campaign A Generic Keyword
+Kunjban Society - Campaign A (Local Radius),Generic Units,,,2 BHK ready to move flats,Phrase,Presence,Default,Campaign A Generic Keyword
+Kunjban Society - Campaign A (Local Radius),Generic Units,,,buy 2 BHK flat,Phrase,Presence,Default,Campaign A Generic Keyword
+Kunjban Society - Campaign A (Local Radius),Generic Units,,,3 BHK flats,Phrase,Presence,Default,Campaign A Generic Keyword
+Kunjban Society - Campaign A (Local Radius),Generic Units,,,3 BHK apartments,Phrase,Presence,Default,Campaign A Generic Keyword
+Kunjban Society - Campaign A (Local Radius),Generic Units,,,3 BHK flats for sale,Phrase,Presence,Default,Campaign A Generic Keyword
+Kunjban Society - Campaign A (Local Radius),Generic Units,,,3 BHK ready to move flats,Phrase,Presence,Default,Campaign A Generic Keyword
+Kunjban Society - Campaign A (Local Radius),Generic Units,,,buy 3 BHK flat,Phrase,Presence,Default,Campaign A Generic Keyword
+Kunjban Society - Campaign A (Local Radius),Generic Units,,,new apartments,Phrase,Presence,Default,Campaign A Generic Keyword
+Kunjban Society - Campaign A (Local Radius),Generic Units,,,ready to move flats,Phrase,Presence,Default,Campaign A Generic Keyword
+Kunjban Society - Campaign A (Local Radius),Generic Units,,,flats for sale,Phrase,Presence,Default,Campaign A Generic Keyword
+Kunjban Society - Campaign A (Local Radius),Generic Units,,,apartments for sale,Phrase,Presence,Default,Campaign A Generic Keyword
+Kunjban Society - Campaign A (Local Radius),Generic Units,,,luxury apartments for sale,Phrase,Presence,Default,Campaign A Generic Keyword
+Kunjban Society - Campaign A (Local Radius),Generic Units,,,gated community flats,Phrase,Presence,Default,Campaign A Generic Keyword
+Kunjban Society - Campaign A (Local Radius),Generic Units,,,new residential projects,Phrase,Presence,Default,Campaign A Generic Keyword
+Kunjban Society - Campaign A (Local Radius),Generic Units,,,premium apartments,Phrase,Presence,Default,Campaign A Generic Keyword
+Kunjban Society - Campaign A (Local Radius),,,,rent,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,for rent,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,rental,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,to rent,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,flat on rent,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,house for rent,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,PG,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,paying guest,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,hostel,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,room for rent,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,single room,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,lease,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,resale,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,second hand,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,used flat,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,distress sale,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,broker,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,brokerage,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,agent commission,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,free flat,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,government quarters,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,commercial office,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,office space,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,coworking,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,warehouse,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,industrial plot,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,jobs,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,job vacancy,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,careers,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,recruitment,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,hiring,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,walk in interview,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,salary,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,interview questions,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,glassdoor,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,internship,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,wiki,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,wikipedia,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,syllabus,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,pincode,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,pin code,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,bus route,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,bus stop,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,metro station timing,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,complaints,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign A (Local Radius),,,,consumer court,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),Locations,,(2km:20.0191:73.8110),,,Presence or interest,,Campaign B Excluded (from Campaign A)
+Kunjban Society - Campaign B (Rest of Nashik / India),Locations,,(2km:20.0095:73.7919),,,Presence or interest,,Campaign B Excluded (from Campaign A)
+Kunjban Society - Campaign B (Rest of Nashik / India),Locations,,(2km:19.9723:73.7817),,,Presence or interest,,Campaign B Excluded (from Campaign A)
+Kunjban Society - Campaign B (Rest of Nashik / India),Locations,,(3km:19.9880:73.7834),,,Presence or interest,,Campaign B Excluded (from Campaign A)
+Kunjban Society - Campaign B (Rest of Nashik / India),Locations,,(3km:19.9004:73.8380),,,Presence or interest,,Campaign B Excluded (from Campaign A)
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats for sale in Hirawadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments in Hirawadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,3 BHK in Hirawadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,2 BHK in Hirawadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats for sale in Panchavati Nashik,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments in Panchavati,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,3 BHK in Panchavati,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,2 BHK in Panchavati,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats for sale in Indira Nagar Nashik,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments in Indira Nagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,3 BHK in Indira Nagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,2 BHK in Indira Nagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats near Nashik Business Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments near Nashik Business Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,2 BHK near Nashik Business Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats near Nashik Cyber Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments near Nashik Cyber Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,2 BHK near Nashik Cyber Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats near Nashik Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments near Nashik Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,2 BHK near Nashik Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats near Nashik IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments near NIT Nashik,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,2 BHK near Nashik IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,3 BHK near NIT Nashik,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,houses near Nashik SEZ,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments near Nashik SEZ,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,2 BHK near Nashik SEZ,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,3 BHK near Nashik SEZ,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats for sale in Kothrud Nashik,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments in Kothrud,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,3 BHK in Kothrud,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,2 BHK in Kothrud,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats in Kunjban,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments in Kunjban,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,2 BHK in Kunjban,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,3 BHK in Kunjban,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats near Kunjban,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments near Kunjban,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,Kunjban apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,new projects in Kunjban,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,buy flat in Kunjban,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats in Society,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments in Society,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,2 BHK in Society,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,3 BHK in Society,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats near Society,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments near Society,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,Society apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,new projects in Society,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,buy flat in Society,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats in Hirawadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats near Hirawadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments near Hirawadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,Hirawadi apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,new projects in Hirawadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,buy flat in Hirawadi,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats in Panchavati,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats near Panchavati,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments near Panchavati,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,Panchavati apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,new projects in Panchavati,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,buy flat in Panchavati,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats in Maharashtra,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments in Maharashtra,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,2 BHK in Maharashtra,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,3 BHK in Maharashtra,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats near Maharashtra,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments near Maharashtra,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,Maharashtra apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,new projects in Maharashtra,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,buy flat in Maharashtra,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats in 422003,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments in 422003,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,2 BHK in 422003,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,3 BHK in 422003,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats near 422003,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments near 422003,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,422003 apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,new projects in 422003,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,buy flat in 422003,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats in Indira Nagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats near Indira Nagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments near Indira Nagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,Indira Nagar apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,new projects in Indira Nagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,buy flat in Indira Nagar,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats in Nashik Business Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments in Nashik Business Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,2 BHK in Nashik Business Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,3 BHK in Nashik Business Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,Nashik Business Park apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,new projects in Nashik Business Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,buy flat in Nashik Business Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats in Nashik Cyber Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments in Nashik Cyber Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,2 BHK in Nashik Cyber Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,3 BHK in Nashik Cyber Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,Nashik Cyber Park apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,new projects in Nashik Cyber Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,buy flat in Nashik Cyber Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats in Nashik Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments in Nashik Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,2 BHK in Nashik Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,3 BHK in Nashik Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,Nashik Tech Park apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,new projects in Nashik Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,buy flat in Nashik Tech Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats in Nashik IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments in Nashik IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,2 BHK in Nashik IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,3 BHK in Nashik IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments near Nashik IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,Nashik IT Park apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,new projects in Nashik IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,buy flat in Nashik IT Park,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats in Nashik SEZ,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments in Nashik SEZ,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,2 BHK in Nashik SEZ,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,3 BHK in Nashik SEZ,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats near Nashik SEZ,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,Nashik SEZ apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,new projects in Nashik SEZ,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,buy flat in Nashik SEZ,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats in Kothrud,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,flats near Kothrud,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,apartments near Kothrud,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,Kothrud apartments,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,new projects in Kothrud,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),Geo Specific,,,buy flat in Kothrud,Phrase,Presence or interest,High,Tier 1: Specific Locality
+Kunjban Society - Campaign B (Rest of Nashik / India),City Broad (Cautious),,,flats in Nashik,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Kunjban Society - Campaign B (Rest of Nashik / India),City Broad (Cautious),,,apartments in Nashik,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Kunjban Society - Campaign B (Rest of Nashik / India),City Broad (Cautious),,,new residential projects in Nashik,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Kunjban Society - Campaign B (Rest of Nashik / India),City Broad (Cautious),,,luxury apartments in Nashik,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Kunjban Society - Campaign B (Rest of Nashik / India),City Broad (Cautious),,,gated community flats in Nashik,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Kunjban Society - Campaign B (Rest of Nashik / India),City Broad (Cautious),,,buy apartment in Nashik,Phrase,Presence or interest,Low (-40%),Tier 2: Broad City-Wide (Bid Lower)
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,rent,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,for rent,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,rental,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,to rent,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,flat on rent,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,house for rent,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,PG,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,paying guest,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,hostel,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,room for rent,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,single room,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,lease,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,resale,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,second hand,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,used flat,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,distress sale,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,broker,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,brokerage,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,agent commission,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,free flat,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,government quarters,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,commercial office,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,office space,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,coworking,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,warehouse,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,industrial plot,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,jobs,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,job vacancy,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,careers,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,recruitment,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,hiring,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,walk in interview,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,salary,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,interview questions,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,glassdoor,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,internship,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,wiki,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,wikipedia,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,syllabus,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,pincode,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,pin code,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,bus route,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,bus stop,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,metro station timing,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,complaints,Negative Phrase,,,Shared Negative
+Kunjban Society - Campaign B (Rest of Nashik / India),,,,consumer court,Negative Phrase,,,Shared Negative

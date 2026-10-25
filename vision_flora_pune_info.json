@@ -1,0 +1,24 @@
+{
+  "status": "dummy",
+  "project": {
+    "name": "Vision Flora"
+  },
+  "location": {
+    "lat": 18.599,
+    "lng": 73.798,
+    "address": "Vision Flora, Pimple Saudagar, Pimpri-Chinchwad, Pune, Maharashtra 411027",
+    "city": "Pune"
+  },
+  "units": [
+    {
+      "type": "2BHK",
+      "status": "available",
+      "price_min_inr": 8500000
+    },
+    {
+      "type": "3BHK",
+      "status": "available",
+      "price_min_inr": 12000000
+    }
+  ]
+}
