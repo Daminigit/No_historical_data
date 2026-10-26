@@ -4,7 +4,7 @@
 **Status:** Approved / Production  
 **Author:** DeepMind Agentic Engineering  
 **Target Audience:** Engineering, Product, Performance Marketing, and Data Science Teams  
-**Repository:** [https://github.com/Daminigit/No_historical_data](https://github.com/Daminigit/No_historical_data)  
+**Repository:** [https://github.com/Daminigit/Targeted_marketing_campaign](https://github.com/Daminigit/Targeted_marketing_campaign)  
 
 ---
 

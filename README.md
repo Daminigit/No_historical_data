@@ -124,8 +124,8 @@ Open in your browser: **[http://localhost:8000/campaign_map.html](http://localho
 ### 1. Installation
 ```bash
 # Clone the repository
-git clone https://github.com/Daminigit/No_historical_data.git
-cd No_historical_data
+git clone https://github.com/Daminigit/Targeted_marketing_campaign.git
+cd Targeted_marketing_campaign
 
 # Create and activate virtual environment
 python3 -m venv .venv
